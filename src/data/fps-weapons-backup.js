@@ -2229,6 +2229,134 @@ const fpsWeapons = [{
         }]
     }
 }, {
+    className: "glsn_smg_energy_01",
+    reference: "d65a6ec7-ccae-482a-a1aa-6b91a62e4160",
+    itemName: "glsn_smg_energy_01",
+    type: "WeaponPersonal",
+    subType: "Medium",
+    tags: "stocked smg glsn_smg_energy_01",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_Nameglsn_smg_energy_01",
+    manufacturer: "KSAR",
+    classification: "FPS.Weapon.Medium",
+    stdItem: {
+        ClassName: "glsn_smg_energy_01",
+        Size: 2,
+        Mass: 2.75,
+        Volume: 7700,
+        Grade: 1,
+        Type: "WeaponPersonal.Medium",
+        Classification: "FPS.Weapon.Medium",
+        Name: "glsn_smg_energy_01",
+        Manufacturer: {
+            Code: "KSAR",
+            Name: "Kastak Arms"
+        },
+        Tags: ["stocked", "smg", "glsn_smg_energy_01"],
+        Durability: {
+            Lifetime: 0
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 500,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
+            Firing: [{
+                Name: "Rapid",
+                LocalisedName: "[AUTO]",
+                SpinUpTime: 0,
+                SpinDownTime: 0,
+                RoundsPerMinute: 800,
+                FireType: "rapid",
+                AmmoPerShot: 1,
+                PelletsPerShot: 1,
+                HeatPerShot: 5,
+                WearPerShot: 0,
+                Spread: {
+                    Min: .11,
+                    Max: 4.23,
+                    FirstAttack: 1.12,
+                    PerAttack: 1.02,
+                    Decay: 8
+                },
+                AimModifier: {
+                    SpreadModifier: {
+                        Min: 0,
+                        Max: .3,
+                        FirstAttack: .5,
+                        PerAttack: .5,
+                        Decay: .6
+                    }
+                },
+                DamagePerShot: {},
+                DamagePerSecond: {}
+            }],
+            Repool: {
+                AmmoPerSecond: 10,
+                UnstowMagDuration: 1,
+                MagMergeDuration: .01
+            }
+        },
+        Ports: [{
+            PortName: "magazine_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Loadout: "glsn_smg_energy_01_mag",
+            Types: ["WeaponAttachment.Magazine"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"],
+            PortTags: ["glsn_smg_energy_01"]
+        }, {
+            PortName: "optics_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Types: ["WeaponAttachment.IronSight"],
+            Flags: ["inventory"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }, {
+            PortName: "barrel_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Types: ["WeaponAttachment.Barrel"],
+            Flags: ["inventory", "energy_barrel"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }, {
+            PortName: "underbarrel_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Types: ["WeaponAttachment.BottomAttachment"],
+            Flags: ["inventory"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }, {
+            PortName: "item_grab",
+            MinSize: 0,
+            MaxSize: 0,
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }]
+    }
+}, {
     className: "gmni_lmg_ballistic_01",
     reference: "d52a4cbb-4791-476d-a104-9f21e8d3f855",
     itemName: "gmni_lmg_ballistic_01",
