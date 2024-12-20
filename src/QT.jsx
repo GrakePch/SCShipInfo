@@ -13,9 +13,9 @@ import ListQuantumDrives from "./components/ListQuantumDrives/ListQuantumDrives"
 import ShipSelector from "./components/ShipSelector/ShipSelector";
 import SimpleComponent from "./components/SimpleComponent/SimpleComponent";
 import LangContext from "./contexts/LangContext";
-import shipIndex from "./data/index-min.json";
-import shipHardpoints from "./data/ship-hardpoints-min.json";
-import shipList from "./data/ship-list-min.json";
+import shipIndex from "./data/index.js";
+import shipHardpoints from "./data/ship-hardpoints.js";
+import shipList from "./data/ship-list.js";
 
 const QT = ({}) => {
   const [lang, setLang] = useContext(LangContext);

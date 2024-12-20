@@ -20,7 +20,7 @@ import QuantumTravel from "./components/QuantumTravel/QuantumTravel";
 import ShipSelector from "./components/ShipSelector/ShipSelector";
 import shipIndex from "./data/index.js";
 import shipHardpoints from "./data/ship-hardpoints.js";
-import shipItems from "./data/ship-items-min.json";
+import shipItems from "./data/ship-items.js";
 import shipList from "./data/ship-list.js";
 import shipDataRSIJson from "./data/ship_data_rsi.json";
 

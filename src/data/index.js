@@ -2483,7 +2483,7 @@ const shipIndex = [{
         Url: null,
         IsPromotionOnly: !1,
         IsLimitedSale: !1,
-        IsShipOfTheMonth: !0,
+        IsShipOfTheMonth: !1,
         ShipOfTheMonth: "November 2024",
         ShipOfTheMonthUrl: "https://robertsspaceindustries.com/comm-link/transmission/20236-November-2024-Subscriber-Promotions",
         Buy: 200
@@ -2520,7 +2520,7 @@ const shipIndex = [{
         Url: null,
         IsPromotionOnly: !1,
         IsLimitedSale: !1,
-        IsShipOfTheMonth: !0,
+        IsShipOfTheMonth: !1,
         ShipOfTheMonth: "November 2024",
         ShipOfTheMonthUrl: "https://robertsspaceindustries.com/comm-link/transmission/20236-November-2024-Subscriber-Promotions",
         Buy: 125
@@ -2884,6 +2884,9 @@ const shipIndex = [{
         Url: null,
         IsPromotionOnly: !1,
         IsLimitedSale: !1,
+        IsShipOfTheMonth: !0,
+        ShipOfTheMonth: "December 2024",
+        ShipOfTheMonthUrl: "https://robertsspaceindustries.com/comm-link/transmission/20318-December-2024-Subscriber-Promotions",
         Buy: 110
     },
     PU: {
@@ -4543,6 +4546,9 @@ const shipIndex = [{
         Url: null,
         IsPromotionOnly: !1,
         IsLimitedSale: !1,
+        IsShipOfTheMonth: !0,
+        ShipOfTheMonth: "December 2024",
+        ShipOfTheMonthUrl: "https://robertsspaceindustries.com/comm-link/transmission/20318-December-2024-Subscriber-Promotions",
         Buy: 300
     },
     PU: {
@@ -4630,8 +4636,8 @@ const shipIndex = [{
         Url: "https://robertsspaceindustries.com/comm-link/transmission/20213-MISC-Starlancer-TAC"
     },
     ProgressTracker: {
-        Status: "NextPatch",
-        Patch: "4.0.0",
+        Status: "InProd",
+        Patch: null,
         IsOnPT: !1,
         ID: null
     },
@@ -4644,8 +4650,76 @@ const shipIndex = [{
     PU: {
         Patch: null,
         Date: null,
+        HasPerf: !1,
+        IsPTUOnly: !1,
+        IsPTUBuyOnly: !1,
+        Buy: null
+    }
+}, {
+    ClassName: "MRAI_Guardian",
+    Name: "Mirai Guardian",
+    Manufacturer: "Mirai",
+    Career: "Combat",
+    Role: "Heavy Fighter",
+    Size: 2,
+    Cargo: 0,
+    Type: "Ship",
+    CommLink: {
+        HasCommLink: !1,
+        Date: null,
+        Url: null
+    },
+    ProgressTracker: {
+        Status: "Released",
+        Patch: "4.0.0",
+        IsOnPT: !1,
+        ID: null
+    },
+    Store: {
+        Url: null,
+        IsPromotionOnly: !1,
+        IsLimitedSale: !1,
+        Buy: 250
+    },
+    PU: {
+        Patch: "4.0.0",
+        Date: "2024-12-20",
         HasPerf: !0,
-        IsPTUOnly: !0,
+        IsPTUOnly: !1,
+        IsPTUBuyOnly: !1,
+        Buy: null
+    }
+}, {
+    ClassName: "MRAI_Guardian_QI",
+    Name: "Mirai Guardian QI",
+    Manufacturer: "Mirai",
+    Career: "Combat",
+    Role: "Interdiction",
+    Size: 2,
+    Cargo: 0,
+    Type: "Ship",
+    CommLink: {
+        HasCommLink: !1,
+        Date: null,
+        Url: null
+    },
+    ProgressTracker: {
+        Status: "Released",
+        Patch: "4.0.0",
+        IsOnPT: !1,
+        ID: null
+    },
+    Store: {
+        Url: null,
+        IsPromotionOnly: !1,
+        IsLimitedSale: !1,
+        Buy: 260
+    },
+    PU: {
+        Patch: "4.0.0",
+        Date: "2024-12-20",
+        HasPerf: !0,
+        IsPTUOnly: !1,
         IsPTUBuyOnly: !1,
         Buy: null
     }

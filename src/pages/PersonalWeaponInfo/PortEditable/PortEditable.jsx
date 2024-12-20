@@ -61,7 +61,7 @@ const PortEditable = ({ data, name, icon }) => {
         <p><I18n text="Available" /></p>
         <div className="list">
           {
-            listAttachments.map((item, idx) => <div>{item.stdItem.Name}</div>)
+            listAttachments.map((item, idx) => <div key={item.stdItem.Name}>{item.stdItem.Name}</div>)
           }
           </div>
       </div>

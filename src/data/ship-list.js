@@ -15,7 +15,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 50786.3,
-    ComponentsMass: 2859,
+    ComponentsMass: 2914,
     Dimensions: {
         Length: 22.5,
         Width: 16.5,
@@ -147,7 +147,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 9e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -222,7 +222,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 51362.68,
-    ComponentsMass: 3247,
+    ComponentsMass: 3302,
     Dimensions: {
         Length: 22.5,
         Width: 16.5,
@@ -354,7 +354,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 9e6,
         FuelIntakeRate: 22,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -429,7 +429,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 51158.42,
-    ComponentsMass: 3167,
+    ComponentsMass: 3222,
     Dimensions: {
         Length: 22.5,
         Width: 16.5,
@@ -561,7 +561,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 9e6,
         FuelIntakeRate: 22,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -636,7 +636,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 47231.75,
-    ComponentsMass: 6989,
+    ComponentsMass: 7044,
     Dimensions: {
         Length: 22.5,
         Width: 16.5,
@@ -768,7 +768,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 9e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -844,7 +844,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 55920,
-    ComponentsMass: 2793,
+    ComponentsMass: 2853,
     Dimensions: {
         Length: 20.5,
         Width: 36.6,
@@ -978,7 +978,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 9e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 116e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -1053,7 +1053,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 51352.06,
-    ComponentsMass: 3205,
+    ComponentsMass: 3265,
     Dimensions: {
         Length: 20,
         Width: 17,
@@ -1199,7 +1199,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -1274,7 +1274,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 50151.51,
-    ComponentsMass: 3191,
+    ComponentsMass: 3361,
     Dimensions: {
         Length: 20,
         Width: 17,
@@ -1420,7 +1420,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -1438,9 +1438,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 6633,
+            SCMIdle: 6641,
             SCMActive: 7535,
-            NAV: 15146
+            NAV: 15153
         },
         Infrared: {
             Start: 9663
@@ -1495,7 +1495,7 @@ const shipList = [{
     WeaponCrew: 6,
     OperationsCrew: 0,
     Mass: 4617511,
-    ComponentsMass: 31268,
+    ComponentsMass: 31358,
     Dimensions: {
         Length: 120,
         Width: 72,
@@ -1629,9 +1629,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 9e8,
+        FuelCapacity: 45e7,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 4e6,
+        QuantumFuelCapacity: 66e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -1697,16 +1697,16 @@ const shipList = [{
     Role: "Frigate",
     Size: 6,
     Cargo: {
-        CargoGrid: 0,
+        CargoGrid: 1168,
         CargoContainers: 0,
         ExternalStorage: 0,
         PersonalInventory: 32
     },
     Crew: 1,
-    WeaponCrew: 21,
+    WeaponCrew: 11,
     OperationsCrew: 0,
     Mass: 37854373,
-    ComponentsMass: 354480,
+    ComponentsMass: 354585,
     Dimensions: {
         Length: 243,
         Width: 127,
@@ -1878,12 +1878,12 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 44821,
-            SCMActive: 69374,
-            NAV: 44825
+            SCMIdle: 44827,
+            SCMActive: 69380,
+            NAV: 44831
         },
         Infrared: {
-            Start: 17805
+            Start: 29805
         },
         CrossSection: {
             Front: 1e4,
@@ -1907,7 +1907,7 @@ const shipList = [{
         },
         TotalShieldHP: 234e4,
         PilotBurstDPS: 17336,
-        TurretsBurstDPS: 21648,
+        TurretsBurstDPS: 25314,
         TotalMissilesDmg: 170917
     },
     Insurance: {
@@ -1932,7 +1932,7 @@ const shipList = [{
     WeaponCrew: 7,
     OperationsCrew: 2,
     Mass: 97578535e-1,
-    ComponentsMass: 27810,
+    ComponentsMass: 27940,
     Dimensions: {
         Length: 155,
         Width: 118,
@@ -2116,7 +2116,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 1754e6,
         FuelIntakeRate: 200,
-        QuantumFuelCapacity: 16e6,
+        QuantumFuelCapacity: 86e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 7.5,
@@ -2191,7 +2191,7 @@ const shipList = [{
     WeaponCrew: 4,
     OperationsCrew: 0,
     Mass: 444270.26,
-    ComponentsMass: 14546,
+    ComponentsMass: 14642,
     Dimensions: {
         Length: 51,
         Width: 25,
@@ -2333,7 +2333,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 66e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 24e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 7.5,
             Retro: 2.5,
@@ -2408,7 +2408,7 @@ const shipList = [{
     WeaponCrew: 5,
     OperationsCrew: 0,
     Mass: 343270.29,
-    ComponentsMass: 9410,
+    ComponentsMass: 9520,
     Dimensions: {
         Length: 71,
         Width: 30,
@@ -2571,7 +2571,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 51e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 26e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -2651,7 +2651,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 86592.72,
-    ComponentsMass: 2979,
+    ComponentsMass: 3039,
     Dimensions: {
         Length: 24,
         Width: 26,
@@ -2784,7 +2784,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -2810,7 +2810,7 @@ const shipList = [{
             Start: 4759
         },
         CrossSection: {
-            Front: 485,
+            Front: 1414,
             Side: 3880,
             Top: 3331
         }
@@ -2859,7 +2859,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 86592.72,
-    ComponentsMass: 2979,
+    ComponentsMass: 3039,
     Dimensions: {
         Length: 24,
         Width: 26,
@@ -2992,7 +2992,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -3018,7 +3018,7 @@ const shipList = [{
             Start: 4981
         },
         CrossSection: {
-            Front: 485,
+            Front: 1414,
             Side: 3880,
             Top: 3331
         }
@@ -3067,7 +3067,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 75592.72,
-    ComponentsMass: 4950,
+    ComponentsMass: 5015,
     Dimensions: {
         Length: 26,
         Width: 30,
@@ -3198,7 +3198,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -3224,7 +3224,7 @@ const shipList = [{
             Start: 3728
         },
         CrossSection: {
-            Front: 485,
+            Front: 1414,
             Side: 3880,
             Top: 3331
         }
@@ -3274,7 +3274,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 75592.72,
-    ComponentsMass: 1524,
+    ComponentsMass: 1589,
     Dimensions: {
         Length: 26,
         Width: 30,
@@ -3413,7 +3413,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -3439,7 +3439,7 @@ const shipList = [{
             Start: 5821
         },
         CrossSection: {
-            Front: 849,
+            Front: 2477,
             Side: 6797,
             Top: 5834
         }
@@ -3486,7 +3486,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 70811.32,
-    ComponentsMass: 2474,
+    ComponentsMass: 2539,
     Dimensions: {
         Length: 24,
         Width: 20.5,
@@ -3613,7 +3613,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -3686,7 +3686,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 244270.26,
-    ComponentsMass: 7442,
+    ComponentsMass: 7522,
     Dimensions: {
         Length: 48,
         Width: 40,
@@ -3826,7 +3826,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 405e5,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -3844,9 +3844,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 21088,
+            SCMIdle: 21086,
             SCMActive: 26140,
-            NAV: 41738
+            NAV: 41737
         },
         Infrared: {
             Start: 15653
@@ -3901,7 +3901,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 236604,
-    ComponentsMass: 8511,
+    ComponentsMass: 8591,
     Dimensions: {
         Length: 48,
         Width: 40,
@@ -4041,7 +4041,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 39e6,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -4059,9 +4059,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 20847,
+            SCMIdle: 20846,
             SCMActive: 30342,
-            NAV: 41002
+            NAV: 41e3
         },
         Infrared: {
             Start: 14010
@@ -4116,7 +4116,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 234870,
-    ComponentsMass: 6926,
+    ComponentsMass: 7006,
     Dimensions: {
         Length: 48,
         Width: 40,
@@ -4256,7 +4256,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 39e6,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -4274,9 +4274,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 15996,
+            SCMIdle: 15995,
             SCMActive: 20479,
-            NAV: 33550
+            NAV: 33549
         },
         Infrared: {
             Start: 12286
@@ -4331,7 +4331,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 232170,
-    ComponentsMass: 9177,
+    ComponentsMass: 9257,
     Dimensions: {
         Length: 48,
         Width: 40,
@@ -4471,7 +4471,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 39e6,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -4489,9 +4489,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 18886,
+            SCMIdle: 18885,
             SCMActive: 25604,
-            NAV: 34366
+            NAV: 34365
         },
         Infrared: {
             Start: 12534
@@ -4547,7 +4547,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 32310,
-    ComponentsMass: 3297,
+    ComponentsMass: 3352,
     Dimensions: {
         Length: 16,
         Width: 12,
@@ -4673,7 +4673,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 75e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -4860,7 +4860,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 48143,
-    ComponentsMass: 1610.2,
+    ComponentsMass: 1798.2,
     Dimensions: {
         Length: 13,
         Width: 10,
@@ -4992,7 +4992,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 5225e4,
         FuelIntakeRate: 12,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -5010,9 +5010,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 4775,
+            SCMIdle: 4781,
             SCMActive: 5634,
-            NAV: 12308
+            NAV: 12314
         },
         Infrared: {
             Start: 5242
@@ -5067,7 +5067,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 48143,
-    ComponentsMass: 1925,
+    ComponentsMass: 2115,
     Dimensions: {
         Length: 13,
         Width: 10,
@@ -5199,7 +5199,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 5225e4,
         FuelIntakeRate: 12,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -5217,9 +5217,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 5177,
+            SCMIdle: 5183,
             SCMActive: 6036,
-            NAV: 12710
+            NAV: 12716
         },
         Infrared: {
             Start: 5638
@@ -5274,7 +5274,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 48143,
-    ComponentsMass: 1595,
+    ComponentsMass: 1785,
     Dimensions: {
         Length: 13,
         Width: 10,
@@ -5406,7 +5406,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 5225e4,
         FuelIntakeRate: 12,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -5424,9 +5424,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 4775,
+            SCMIdle: 4781,
             SCMActive: 5634,
-            NAV: 12308
+            NAV: 12314
         },
         Infrared: {
             Start: 5578
@@ -5481,7 +5481,7 @@ const shipList = [{
     WeaponCrew: 4,
     OperationsCrew: 0,
     Mass: 4397858,
-    ComponentsMass: 20400,
+    ComponentsMass: 20510,
     Dimensions: {
         Length: 126.5,
         Width: 76.5,
@@ -5506,9 +5506,6 @@ const shipList = [{
                 middle: 7e4
             },
             Parts: {
-                cargo_pod_exterior_001: 5e3,
-                cargo_pod_exterior_002: 5e3,
-                cargo_pod_exterior_003: 5e3,
                 rear: 3e3,
                 Wings_L: 5e3,
                 Wings_R: 5e3,
@@ -5621,7 +5618,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 36e7,
         FuelIntakeRate: 800,
-        QuantumFuelCapacity: 24e6,
+        QuantumFuelCapacity: 106e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -5689,14 +5686,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .5,
+        ExternalStorage: 0,
         PersonalInventory: 2.11
     },
     Crew: 2,
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 77016,
-    ComponentsMass: 2053,
+    ComponentsMass: 2052,
     Dimensions: {
         Length: 17,
         Width: 7,
@@ -5808,7 +5805,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 88408,
-    ComponentsMass: 6452,
+    ComponentsMass: 6502,
     Dimensions: {
         Length: 22.5,
         Width: 22.5,
@@ -5960,7 +5957,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 15e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -6035,7 +6032,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 67066,
-    ComponentsMass: 3030,
+    ComponentsMass: 3100,
     Dimensions: {
         Length: 17,
         Width: 22,
@@ -6167,7 +6164,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 105e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -6248,7 +6245,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 74132,
-    ComponentsMass: 7282,
+    ComponentsMass: 7327,
     Dimensions: {
         Length: 22.5,
         Width: 21.5,
@@ -6380,7 +6377,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 14e6,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -6452,7 +6449,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 73317,
-    ComponentsMass: 10014,
+    ComponentsMass: 10069,
     Dimensions: {
         Length: 22.5,
         Width: 21,
@@ -6490,10 +6487,11 @@ const shipList = [{
                 thrust_vector_flap_a: 50,
                 thrust_vector_flap_b: 50,
                 thrust_vector_flap_c: 50,
-                tail_wing_debris: 1600,
+                tail_wing: 1,
+                tail_wing_debris: 400,
                 wing_left: 200,
                 wing_left_debris: 1600,
-                wing_flap_left: 50,
+                wing_left_debris_02: 200,
                 cap_spine: 250
             }
         },
@@ -6590,7 +6588,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 16e6,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -6668,7 +6666,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 74132,
-    ComponentsMass: 2789,
+    ComponentsMass: 2834,
     Dimensions: {
         Length: 22.5,
         Width: 21.5,
@@ -6804,7 +6802,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e6,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -6879,7 +6877,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 78886,
-    ComponentsMass: 5658,
+    ComponentsMass: 5703,
     Dimensions: {
         Length: 25.5,
         Width: 24,
@@ -7014,7 +7012,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -7089,7 +7087,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 74197,
-    ComponentsMass: 2551,
+    ComponentsMass: 2596,
     Dimensions: {
         Length: 22.5,
         Width: 21.5,
@@ -7225,7 +7223,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e6,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -7300,11 +7298,11 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 73317,
-    ComponentsMass: 3618,
+    ComponentsMass: 3673,
     Dimensions: {
-        Length: 22.5,
+        Length: 22.2,
         Width: 22,
-        Height: 6.5
+        Height: 6
     },
     IsSpaceship: !0,
     Armor: {
@@ -7439,7 +7437,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 144e5,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -7493,6 +7491,12 @@ const shipList = [{
         StandardClaimTime: 9.33,
         ExpeditedClaimTime: 2.33,
         ExpeditedCost: 4070
+    },
+    "New Ship": "Anvil F7C-R Hornet Tracker Mk II",
+    Dimensions2: {
+        Length: 22.2,
+        Width: 15,
+        Height: 6
     }
 }, {
     ClassName: "ANVL_Hornet_F7CS",
@@ -7511,7 +7515,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 73724,
-    ComponentsMass: 2476,
+    ComponentsMass: 2521,
     Dimensions: {
         Length: 22.5,
         Width: 21.5,
@@ -7647,7 +7651,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e6,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -7722,11 +7726,11 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 73317,
-    ComponentsMass: 3618,
+    ComponentsMass: 3673,
     Dimensions: {
-        Length: 22.5,
+        Length: 22.2,
         Width: 22,
-        Height: 6.5
+        Height: 6
     },
     IsSpaceship: !0,
     Armor: {
@@ -7861,7 +7865,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 144e5,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -7915,6 +7919,12 @@ const shipList = [{
         StandardClaimTime: 9.5,
         ExpeditedClaimTime: 2.375,
         ExpeditedCost: 4190
+    },
+    "New Ship": "Anvil F7C-S Hornet Ghost Mk II",
+    Dimensions2: {
+        Length: 22.2,
+        Width: 15,
+        Height: 6
     }
 }, {
     ClassName: "ANVL_Hornet_F7C_Mk2",
@@ -7933,7 +7943,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 73317,
-    ComponentsMass: 3518,
+    ComponentsMass: 3573,
     Dimensions: {
         Length: 22.5,
         Width: 21,
@@ -7971,10 +7981,11 @@ const shipList = [{
                 thrust_vector_flap_a: 50,
                 thrust_vector_flap_b: 50,
                 thrust_vector_flap_c: 50,
-                tail_wing_debris: 1600,
+                tail_wing: 1,
+                tail_wing_debris: 400,
                 wing_left: 200,
                 wing_left_debris: 1600,
-                wing_flap_left: 50,
+                wing_left_debris_02: 200,
                 cap_spine: 250
             }
         },
@@ -8071,7 +8082,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 16e6,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -8152,7 +8163,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 74132,
-    ComponentsMass: 3398,
+    ComponentsMass: 3443,
     Dimensions: {
         Length: 22.5,
         Width: 21.5,
@@ -8288,7 +8299,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e6,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -8363,7 +8374,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 90245,
-    ComponentsMass: 4432,
+    ComponentsMass: 4492,
     Dimensions: {
         Length: 22,
         Width: 18.2,
@@ -8499,7 +8510,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -8574,7 +8585,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 158775,
-    ComponentsMass: 5224,
+    ComponentsMass: 5309,
     Dimensions: {
         Length: 26,
         Width: 25,
@@ -8727,7 +8738,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 372e5,
         FuelIntakeRate: 36,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 2.5,
@@ -8793,14 +8804,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .5,
+        ExternalStorage: 0,
         PersonalInventory: 1.06
     },
     Crew: 1,
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 80016,
-    ComponentsMass: 628,
+    ComponentsMass: 627,
     Dimensions: {
         Length: 17,
         Width: 7,
@@ -8913,223 +8924,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 166850,
-    ComponentsMass: 3420,
-    Dimensions: {
-        Length: 19.5,
-        Width: 14.5,
-        Height: 6
-    },
-    IsSpaceship: !0,
-    Armor: {
-        DamageMultipliers: {
-            Physical: .46,
-            Energy: 1,
-            Distortion: 1
-        },
-        SignalMultipliers: {
-            Electromagnetic: 1,
-            Infrared: 1,
-            CrossSection: 1
-        }
-    },
-    Hull: {
-        StructureHealthPoints: {
-            VitalParts: {
-                Body: 2e4,
-                Nose: 2e4,
-                Tail: 2e4
-            },
-            Parts: {
-                Front_left_leg: 14e3,
-                Vent_flap_top_left: 1e3,
-                Vent_flap_top_left_piston: 500,
-                Front_right_leg: 14e3,
-                Body_Bottom: 4e3,
-                Vent_flap_top_right: 1e3,
-                Leg_rear_Left: 14e3,
-                rear_left_Main_Thruster_wing_top: 3e3,
-                rear_left_Main_Thruster_wing_bot: 3e3,
-                Flap_Top_left: 1e3,
-                Flap_Top_right: 1e3,
-                Leg_rear_Right: 14e3,
-                rear_right_Main_Thruster_wing_top: 3e3,
-                rear_right_Main_Thruster_wing_bot: 3e3
-            }
-        },
-        ThrustersHealthPoints: {
-            Main: {
-                thruster_main_front_left: 6e3,
-                thruster_main_front_right: 6e3,
-                thruster_main_rear_left: 6e3,
-                thruster_main_rear_right: 6e3
-            },
-            Retro: {
-                thruster_retro_left: 5240,
-                thruster_retro_right: 5240
-            },
-            Maneuvering: {
-                thruster_top_left: 4800,
-                thruster_top_right: 4800,
-                thruster_bottom_left: 4800,
-                thruster_bottom_right: 4800,
-                thruster_rear_left: 4800,
-                thruster_rear_top_left: 4800,
-                thruster_rear_right: 4800,
-                thruster_rear_top_right: 4800,
-                thruster_rear_bottom_left: 4800,
-                thruster_rear_bottom_right: 4800
-            }
-        }
-    },
-    FlightCharacteristics: {
-        ScmSpeed: 200,
-        MaxSpeed: 1100,
-        Pitch: 35,
-        Yaw: 30,
-        Roll: 100,
-        IsVtolAssisted: !1,
-        UseDirectionModifiers: !0,
-        ThrustCapacity: {
-            Main: 12692300,
-            Retro: 4187986,
-            Vtol: 0,
-            Maneuvering: 15929320
-        },
-        AccelerationG: {
-            IsValidated: !0,
-            Main: 8.9,
-            Retro: 2.4,
-            Strafe: 4,
-            Up: 4.5,
-            Down: 4.9
-        },
-        MasterModes: {
-            BaseSpoolTime: 1,
-            QuantumDriveSpoolTime: 4,
-            ScmMode: {
-                BoostSpeedForward: 420,
-                BoostSpeedBackward: 240
-            }
-        },
-        Boost: {
-            PreDelay: 0,
-            RampUp: 1.2,
-            RampDown: .2,
-            AccelerationMultiplier: {
-                PositiveAxis: {
-                    X: 1.2,
-                    Y: 1.5,
-                    Z: 1.3
-                },
-                NegativeAxis: {
-                    X: 1.2,
-                    Y: 1.4,
-                    Z: 1.4
-                }
-            },
-            AngularAccelerationMultiplier: {
-                Pitch: 1.2,
-                Yaw: 1.2,
-                Roll: 1.2
-            },
-            AngularVelocityMultiplier: {
-                Pitch: 1.2,
-                Yaw: 1.2,
-                Roll: 1.2
-            }
-        },
-        Capacitors: {
-            ThrusterCapacitorSize: 20,
-            CapacitorRegenPerSec: .75,
-            CapacitorIdleCost: 1,
-            CapacitorLinearCost: 0,
-            CapacitorUsageModifier: 1,
-            CapacitorRegenDelay: .9,
-            RegenerationTime: 26.7,
-            X_AccelMultiplicator: 1.8,
-            Y_AccelMultiplicator: 1.8,
-            Z_AccelMultiplicator: 1.8
-        }
-    },
-    FuelManagement: {
-        FuelCapacity: 1045e5,
-        FuelIntakeRate: 18,
-        QuantumFuelCapacity: 12e5,
-        FuelBurnRatePer10KNewton: {
-            Main: 5,
-            Retro: 2.5,
-            Vtol: 0,
-            Maneuvering: 12.5
-        },
-        FuelUsagePerSecond: {
-            Main: 1586.538,
-            Retro: 523.498,
-            Vtol: 0,
-            Maneuvering: 1991.165
-        },
-        IntakeToMainFuelRatio: 1.13,
-        TimeForIntakesToFillTank: 580555556e-2
-    },
-    Emissions: {
-        Electromagnetic: {
-            SCMIdle: 9527,
-            SCMActive: 12393,
-            NAV: 17052
-        },
-        Infrared: {
-            Start: 5905
-        },
-        CrossSection: {
-            Front: 3066,
-            Side: 7562,
-            Top: 10219
-        }
-    },
-    ResourceNetwork: {
-        ItemPools: {
-            WeaponPoolSize: 6
-        }
-    },
-    Weapons: {
-        PilotWeaponRegenPool: {
-            RegenFillRate: 0,
-            AmmoLoad: 0
-        },
-        TurretsWeaponRegenPool: {
-            RegenFillRate: 0,
-            AmmoLoad: 0
-        },
-        TotalShieldHP: 8860,
-        PilotBurstDPS: 656,
-        TurretsBurstDPS: 0,
-        TotalMissilesDmg: 0
-    },
-    Insurance: {
-        StandardClaimTime: 7.875,
-        ExpeditedClaimTime: 2.625,
-        ExpeditedCost: 3940
-    },
-    Buy: {
-        "Astro Armada, Area 18": 5433120
-    }
-}, {
-    ClassName: "ANVL_Terrapin_Medic",
-    Name: "Anvil Terrapin Medic",
-    Description: "Maintaining the famed toughness of the original Terrapin, Anvil designers have crafted an optimal vehicle for rescue operations with the Terrapin Medic. Featuring a tier 2 medical bed, the Terrapin Medic can extract injured parties from even the most hazardous situations thanks to its powerful armor and shielding.",
-    Career: "Support",
-    Role: "Medical",
-    Size: 2,
-    Cargo: {
-        CargoGrid: 0,
-        CargoContainers: 0,
-        ExternalStorage: 0,
-        PersonalInventory: 1.85
-    },
-    Crew: 1,
-    WeaponCrew: 0,
-    OperationsCrew: 0,
-    Mass: 166850,
-    ComponentsMass: 3120,
+    ComponentsMass: 3410,
     Dimensions: {
         Length: 19.5,
         Width: 14.5,
@@ -9213,18 +9008,18 @@ const shipList = [{
         IsVtolAssisted: !1,
         UseDirectionModifiers: !0,
         ThrustCapacity: {
-            Main: 8e6,
+            Main: 424e4,
             Retro: 4173886,
             Vtol: 0,
-            Maneuvering: 18328494
+            Maneuvering: 21540048
         },
         AccelerationG: {
             IsValidated: !0,
-            Main: 9.1,
-            Retro: 2.5,
+            Main: 9.2,
+            Retro: 2.4,
             Strafe: 3,
             Up: 3.4,
-            Down: 3.7
+            Down: 3.4
         },
         MasterModes: {
             BaseSpoolTime: 1,
@@ -9275,9 +9070,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 1e7,
+        FuelCapacity: 1045e5,
         FuelIntakeRate: 18,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -9285,13 +9080,236 @@ const shipList = [{
             Maneuvering: 12.5
         },
         FuelUsagePerSecond: {
-            Main: 1e3,
+            Main: 530,
             Retro: 521.736,
             Vtol: 0,
-            Maneuvering: 2291.061
+            Maneuvering: 2692.506
         },
-        IntakeToMainFuelRatio: 1.8,
-        TimeForIntakesToFillTank: 555555.56
+        IntakeToMainFuelRatio: 3.4,
+        TimeForIntakesToFillTank: 580555556e-2
+    },
+    Emissions: {
+        Electromagnetic: {
+            SCMIdle: 8621,
+            SCMActive: 11325,
+            NAV: 16146
+        },
+        Infrared: {
+            Start: 5835
+        },
+        CrossSection: {
+            Front: 3066,
+            Side: 7562,
+            Top: 10219
+        }
+    },
+    ResourceNetwork: {
+        ItemPools: {
+            WeaponPoolSize: 6
+        }
+    },
+    Weapons: {
+        PilotWeaponRegenPool: {
+            RegenFillRate: 0,
+            AmmoLoad: 0
+        },
+        TurretsWeaponRegenPool: {
+            RegenFillRate: 0,
+            AmmoLoad: 0
+        },
+        TotalShieldHP: 8860,
+        PilotBurstDPS: 656,
+        TurretsBurstDPS: 0,
+        TotalMissilesDmg: 0
+    },
+    Insurance: {
+        StandardClaimTime: 7.875,
+        ExpeditedClaimTime: 2.625,
+        ExpeditedCost: 3940
+    },
+    Buy: {
+        "Astro Armada, Area 18": 5433120
+    }
+}, {
+    ClassName: "ANVL_Terrapin_Medic",
+    Name: "Anvil Terrapin Medic",
+    Description: "Maintaining the famed toughness of the original Terrapin, Anvil designers have crafted an optimal vehicle for rescue operations with the Terrapin Medic. Featuring a tier 2 medical bed, the Terrapin Medic can extract injured parties from even the most hazardous situations thanks to its powerful armor and shielding.",
+    Career: "Support",
+    Role: "Medical",
+    Size: 2,
+    Cargo: {
+        CargoGrid: 0,
+        CargoContainers: 0,
+        ExternalStorage: 0,
+        PersonalInventory: 1.85
+    },
+    Crew: 1,
+    WeaponCrew: 0,
+    OperationsCrew: 0,
+    Mass: 166850,
+    ComponentsMass: 3200,
+    Dimensions: {
+        Length: 20,
+        Width: 15.6,
+        Height: 7
+    },
+    IsSpaceship: !0,
+    Armor: {
+        DamageMultipliers: {
+            Physical: .46,
+            Energy: 1,
+            Distortion: 1
+        },
+        SignalMultipliers: {
+            Electromagnetic: 1,
+            Infrared: 1,
+            CrossSection: 1
+        }
+    },
+    Hull: {
+        StructureHealthPoints: {
+            VitalParts: {
+                body: 2e4,
+                nose: 15e3
+            },
+            Parts: {
+                Front_left_leg: 1e4,
+                front_main_thruster_base_left: 1e3,
+                terrapin_thruster_main_front_left: 1e4,
+                Body_Bottom: 15e3,
+                fuelport_inflight_housing: 1,
+                tail: 2e4,
+                Leg_rear_right: 1e4,
+                rear_Main_thruster_base_right: 1e3,
+                rear_right_Main_Thruster_wing_top: 3e3,
+                rear_right_Main_Thruster_wing_bot: 3e3,
+                terrapin_thruster_main_rear_right: 1e4,
+                Leg_rear_Left: 1e4,
+                rear_main_thruster_base_left: 1e3,
+                rear_left_Main_Thruster_wing_top: 3e3,
+                rear_left_Main_Thruster_wing_bot: 3e3,
+                terrapin_thruster_main_rear_left: 1e4,
+                Flap_Top_right: 1e3,
+                Flap_Top_left: 1e3,
+                tail_top_plate: 200,
+                Front_right_leg: 1e4,
+                front_main_thruster_base_right: 1e3,
+                terrapin_thruster_main_front_right: 1e4
+            }
+        },
+        ThrustersHealthPoints: {
+            Main: {
+                thruster_main_front_left: 6e3,
+                thruster_main_rear_right: 6e3,
+                thruster_main_rear_left: 6e3,
+                thruster_main_front_right: 6e3
+            },
+            Retro: {
+                thruster_retro_left: 5240,
+                thruster_retro_right: 5240
+            },
+            Maneuvering: {
+                thruster_top_left: 6e3,
+                thruster_top_right: 6e3,
+                thruster_bottom_left: 6e3,
+                thruster_bottom_right: 6e3,
+                thruster_rear_top_right: 6e3,
+                thruster_rear_top_left: 6e3,
+                thruster_rear_right: 4800,
+                thruster_rear_left: 4800,
+                thruster_rear_bottom_right: 6e3,
+                thruster_rear_bottom_left: 6e3
+            }
+        }
+    },
+    FlightCharacteristics: {
+        ScmSpeed: 200,
+        MaxSpeed: 1150,
+        Pitch: 35,
+        Yaw: 35,
+        Roll: 120,
+        IsVtolAssisted: !1,
+        UseDirectionModifiers: !0,
+        ThrustCapacity: {
+            Main: 424e4,
+            Retro: 4173886,
+            Vtol: 0,
+            Maneuvering: 21540048
+        },
+        AccelerationG: {
+            IsValidated: !0,
+            Main: 9.2,
+            Retro: 2.5,
+            Strafe: 3,
+            Up: 3.4,
+            Down: 3.4
+        },
+        MasterModes: {
+            BaseSpoolTime: 1,
+            QuantumDriveSpoolTime: 4,
+            ScmMode: {
+                BoostSpeedForward: 320,
+                BoostSpeedBackward: 240
+            }
+        },
+        Boost: {
+            PreDelay: 0,
+            RampUp: 1.2,
+            RampDown: .2,
+            AccelerationMultiplier: {
+                PositiveAxis: {
+                    X: 1.2,
+                    Y: 1.5,
+                    Z: 1.3
+                },
+                NegativeAxis: {
+                    X: 1.2,
+                    Y: 1.4,
+                    Z: 1.4
+                }
+            },
+            AngularAccelerationMultiplier: {
+                Pitch: 1.2,
+                Yaw: 1.2,
+                Roll: 1.2
+            },
+            AngularVelocityMultiplier: {
+                Pitch: 1.2,
+                Yaw: 1.2,
+                Roll: 1.2
+            }
+        },
+        Capacitors: {
+            ThrusterCapacitorSize: 20,
+            CapacitorRegenPerSec: .75,
+            CapacitorIdleCost: 1,
+            CapacitorLinearCost: 0,
+            CapacitorUsageModifier: 1,
+            CapacitorRegenDelay: .9,
+            RegenerationTime: 26.7,
+            X_AccelMultiplicator: 1.8,
+            Y_AccelMultiplicator: 1.8,
+            Z_AccelMultiplicator: 1.8
+        }
+    },
+    FuelManagement: {
+        FuelCapacity: 1045e5,
+        FuelIntakeRate: 18,
+        QuantumFuelCapacity: 18e5,
+        FuelBurnRatePer10KNewton: {
+            Main: 5,
+            Retro: 2.5,
+            Vtol: 0,
+            Maneuvering: 12.5
+        },
+        FuelUsagePerSecond: {
+            Main: 530,
+            Retro: 521.736,
+            Vtol: 0,
+            Maneuvering: 2692.506
+        },
+        IntakeToMainFuelRatio: 3.4,
+        TimeForIntakesToFillTank: 580555556e-2
     },
     Emissions: {
         Electromagnetic: {
@@ -9331,6 +9349,12 @@ const shipList = [{
         StandardClaimTime: 9.5,
         ExpeditedClaimTime: 2.375,
         ExpeditedCost: 4220
+    },
+    "New Ship": "Anvil Terrapin Medic",
+    Dimensions2: {
+        Length: 20,
+        Width: 16.4,
+        Height: 7
     }
 }, {
     ClassName: "ANVL_Valkyrie",
@@ -9349,7 +9373,7 @@ const shipList = [{
     WeaponCrew: 6,
     OperationsCrew: 0,
     Mass: 621046.06,
-    ComponentsMass: 11520,
+    ComponentsMass: 11620,
     Dimensions: {
         Length: 48,
         Width: 38,
@@ -9497,7 +9521,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 945e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 7.5,
             Retro: 2.5,
@@ -9681,7 +9705,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 3,
     Mass: 869686,
-    ComponentsMass: 8423,
+    ComponentsMass: 8513,
     Dimensions: {
         Length: 45,
         Width: 25,
@@ -9819,7 +9843,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 2e8,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 85e5,
+        QuantumFuelCapacity: 26e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -9894,7 +9918,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 13030,
-    ComponentsMass: 466,
+    ComponentsMass: 556,
     Dimensions: {
         Length: 9.5,
         Width: 8.5,
@@ -10090,14 +10114,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 16,
         CargoContainers: 0,
-        ExternalStorage: .71,
+        ExternalStorage: .45,
         PersonalInventory: 2
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 8015,
-    ComponentsMass: 723,
+    ComponentsMass: 813,
     Dimensions: {
         Length: 9,
         Width: 8.5,
@@ -10306,7 +10330,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 13005,
-    ComponentsMass: 466,
+    ComponentsMass: 556,
     Dimensions: {
         Length: 9.25,
         Width: 8.5,
@@ -10502,14 +10526,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 96,
         CargoContainers: 0,
-        ExternalStorage: .8,
+        ExternalStorage: 0,
         PersonalInventory: 2.46
     },
     Crew: 2,
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 669686,
-    ComponentsMass: 7122,
+    ComponentsMass: 7230,
     Dimensions: {
         Length: 39.5,
         Width: 23,
@@ -10650,9 +10674,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 228427500,
+        FuelCapacity: 225e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 21e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -10720,14 +10744,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 12,
         CargoContainers: 0,
-        ExternalStorage: .2,
+        ExternalStorage: 0,
         PersonalInventory: .93
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 1,
     Mass: 458980,
-    ComponentsMass: 3671,
+    ComponentsMass: 3790,
     Dimensions: {
         Length: 28.5,
         Width: 19.5,
@@ -10764,14 +10788,14 @@ const shipList = [{
                 VTOL_rear_right_cylinder_mesh: 1e3,
                 VTOL_rear_right_lower_mesh: 500,
                 VTOL_rear_right_upper_mesh: 500,
+                DEBRIS_MainTractorBeamArm: 1e3,
                 Nacelle_left: 2500,
                 VTOL_mid_left_cylinder_mesh: 1e3,
                 VTOL_mid_left_upper_mesh: 500,
                 VTOL_mid_left_lower_mesh: 500,
                 VTOL_rear_left_cylinder_mesh: 1e3,
                 VTOL_rear_left_lower_mesh: 500,
-                VTOL_rear_left_upper_mesh: 500,
-                DEBRIS_MainTractorBeamArm: 1e3
+                VTOL_rear_left_upper_mesh: 500
             }
         },
         ThrustersHealthPoints: {
@@ -10882,7 +10906,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 475e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 31e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -10958,7 +10982,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 122930,
-    ComponentsMass: 3042,
+    ComponentsMass: 3122,
     Dimensions: {
         Length: 25.5,
         Width: 20,
@@ -11089,7 +11113,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 43e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e6,
+        QuantumFuelCapacity: 31e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -11164,7 +11188,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 4850,
-    ComponentsMass: 438,
+    ComponentsMass: 553,
     Dimensions: {
         Length: 4.5,
         Width: 2.5,
@@ -11379,7 +11403,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 34221,
-    ComponentsMass: 4700,
+    ComponentsMass: 4780,
     Dimensions: {
         Length: 21.5,
         Width: 18,
@@ -11517,7 +11541,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 6e6,
         FuelIntakeRate: 8,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -11592,7 +11616,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 41113,
-    ComponentsMass: 5050,
+    ComponentsMass: 5130,
     Dimensions: {
         Length: 21.5,
         Width: 18,
@@ -11730,7 +11754,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 8e6,
         FuelIntakeRate: 4,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -11805,7 +11829,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 38763,
-    ComponentsMass: 5800,
+    ComponentsMass: 5880,
     Dimensions: {
         Length: 21.5,
         Width: 18,
@@ -11943,7 +11967,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 75e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -12018,7 +12042,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 31565,
-    ComponentsMass: 1334,
+    ComponentsMass: 1419,
     Dimensions: {
         Length: 21.5,
         Width: 18,
@@ -12157,7 +12181,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 6e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 2.5,
@@ -12232,7 +12256,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 31565,
-    ComponentsMass: 1334,
+    ComponentsMass: 1419,
     Dimensions: {
         Length: 21.5,
         Width: 18,
@@ -12371,7 +12395,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 6e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 2.5,
@@ -12443,7 +12467,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 228123,
-    ComponentsMass: 3101,
+    ComponentsMass: 3181,
     Dimensions: {
         Length: 27,
         Width: 19,
@@ -12578,7 +12602,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 32799999999999996e-9,
         FuelIntakeRate: 16,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -12646,14 +12670,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 8,
         CargoContainers: 0,
-        ExternalStorage: 0,
+        ExternalStorage: 1.5,
         PersonalInventory: 2
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 77653,
-    ComponentsMass: 1650.2,
+    ComponentsMass: 1770.2,
     Dimensions: {
         Length: 23.2,
         Width: 20.3,
@@ -12746,7 +12770,7 @@ const shipList = [{
         ThrustCapacity: {
             Main: 4e6,
             Retro: 3e6,
-            Vtol: 0,
+            Vtol: 5e5,
             Maneuvering: 192e5
         },
         AccelerationG: {
@@ -12808,7 +12832,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 26e6,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -12818,7 +12842,7 @@ const shipList = [{
         FuelUsagePerSecond: {
             Main: 500,
             Retro: 375,
-            Vtol: 0,
+            Vtol: 62.5,
             Maneuvering: 2400
         },
         IntakeToMainFuelRatio: 6,
@@ -12862,7 +12886,8 @@ const shipList = [{
         StandardClaimTime: 5.67,
         ExpeditedClaimTime: 1.42,
         ExpeditedCost: 1850
-    }
+    },
+    "New Ship": "Crusader Intrepid"
 }, {
     ClassName: "CRUS_Spirit_A1",
     Name: "Crusader A1 Spirit",
@@ -12880,7 +12905,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 314270.5,
-    ComponentsMass: 8276,
+    ComponentsMass: 8426,
     Dimensions: {
         Length: 47.5,
         Width: 44,
@@ -13033,7 +13058,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e6,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 12.5,
             Retro: 2.5,
@@ -13109,7 +13134,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 314270.5,
-    ComponentsMass: 5316,
+    ComponentsMass: 5466,
     Dimensions: {
         Length: 47.5,
         Width: 44,
@@ -13262,7 +13287,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e6,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 12.5,
             Retro: 2.5,
@@ -13338,7 +13363,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 329001,
-    ComponentsMass: 8810,
+    ComponentsMass: 8890,
     Dimensions: {
         Length: 27,
         Width: 30,
@@ -13471,7 +13496,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 24e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -13546,7 +13571,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 329001,
-    ComponentsMass: 8950,
+    ComponentsMass: 9030,
     Dimensions: {
         Length: 27,
         Width: 30,
@@ -13679,7 +13704,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 24e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -13754,7 +13779,7 @@ const shipList = [{
     WeaponCrew: 7,
     OperationsCrew: 0,
     Mass: 313924006e-2,
-    ComponentsMass: 25554,
+    ComponentsMass: 25694,
     Dimensions: {
         Length: 94,
         Width: 70,
@@ -13900,7 +13925,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 132e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 8e6,
+        QuantumFuelCapacity: 66e5,
         FuelBurnRatePer10KNewton: {
             Main: 10,
             Retro: 2.5,
@@ -13975,7 +14000,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 313924006e-2,
-    ComponentsMass: 20160,
+    ComponentsMass: 20300,
     Dimensions: {
         Length: 94,
         Width: 70,
@@ -14121,7 +14146,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 132e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 8e6,
+        QuantumFuelCapacity: 66e5,
         FuelBurnRatePer10KNewton: {
             Main: 10,
             Retro: 2.5,
@@ -14197,7 +14222,7 @@ const shipList = [{
     WeaponCrew: 3,
     OperationsCrew: 0,
     Mass: 313924006e-2,
-    ComponentsMass: 17370,
+    ComponentsMass: 17510,
     Dimensions: {
         Length: 94,
         Width: 70,
@@ -14343,7 +14368,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 132e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 8e6,
+        QuantumFuelCapacity: 66e5,
         FuelBurnRatePer10KNewton: {
             Main: 10,
             Retro: 2.5,
@@ -14419,7 +14444,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 715175,
-    ComponentsMass: 12272,
+    ComponentsMass: 12362,
     Dimensions: {
         Length: 56,
         Width: 51,
@@ -14552,7 +14577,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 1e8,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 6e6,
+        QuantumFuelCapacity: 26e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -14627,7 +14652,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 40527,
-    ComponentsMass: 3333,
+    ComponentsMass: 3473,
     Dimensions: {
         Length: 15,
         Width: 16,
@@ -14783,7 +14808,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 75e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -14858,7 +14883,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 1660063,
-    ComponentsMass: 20110,
+    ComponentsMass: 20300,
     Dimensions: {
         Length: 111.5,
         Width: 39.5,
@@ -15011,7 +15036,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 2505e5,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 15e6,
+        QuantumFuelCapacity: 86e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 7.5,
@@ -15072,7 +15097,7 @@ const shipList = [{
 }, {
     ClassName: "DRAK_Corsair",
     Name: "Drake Corsair",
-    Description: "Heed the call of uncharted space and harness the spirit of exploration with the Drake Corsair. Utilizing  a unique asymmetrical hull design, this versatile explorer can go wherever the winds of adventure may steer you.",
+    Description: "Heed the call of uncharted space and harness the spirit of exploration with the Drake Corsair. Utilizing a unique asymmetrical hull design, this versatile explorer can go wherever the winds of adventure may steer you.",
     Career: "Exploration",
     Role: "Expedition",
     Size: 4,
@@ -15086,7 +15111,7 @@ const shipList = [{
     WeaponCrew: 3,
     OperationsCrew: 0,
     Mass: 445456,
-    ComponentsMass: 9812,
+    ComponentsMass: 10012,
     Dimensions: {
         Length: 55,
         Width: 56,
@@ -15258,7 +15283,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 116e6,
         FuelIntakeRate: 54,
-        QuantumFuelCapacity: 6e6,
+        QuantumFuelCapacity: 52e5,
         FuelBurnRatePer10KNewton: {
             Main: 7.5,
             Retro: 7.5,
@@ -15338,7 +15363,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 246577,
-    ComponentsMass: 6630,
+    ComponentsMass: 6780,
     Dimensions: {
         Length: 36,
         Width: 26.5,
@@ -15487,7 +15512,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 36e6,
         FuelIntakeRate: 20,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -15562,7 +15587,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 226700,
-    ComponentsMass: 8814,
+    ComponentsMass: 8984,
     Dimensions: {
         Length: 36,
         Width: 26.5,
@@ -15710,8 +15735,8 @@ const shipList = [{
     },
     FuelManagement: {
         FuelCapacity: 36e6,
-        FuelIntakeRate: 0,
-        QuantumFuelCapacity: 12e5,
+        FuelIntakeRate: 20,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -15724,8 +15749,8 @@ const shipList = [{
             Vtol: 0,
             Maneuvering: 7603.166
         },
-        IntakeToMainFuelRatio: 0,
-        TimeForIntakesToFillTank: "Infinity"
+        IntakeToMainFuelRatio: .99,
+        TimeForIntakesToFillTank: 18e5
     },
     Emissions: {
         Electromagnetic: {
@@ -15734,7 +15759,7 @@ const shipList = [{
             NAV: 28280
         },
         Infrared: {
-            Start: 10444
+            Start: 10494
         },
         CrossSection: {
             Front: 5361,
@@ -15786,7 +15811,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 226700,
-    ComponentsMass: 6420,
+    ComponentsMass: 6570,
     Dimensions: {
         Length: 36,
         Width: 26.5,
@@ -15933,7 +15958,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 36e6,
         FuelIntakeRate: 20,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -16008,7 +16033,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 246577,
-    ComponentsMass: 9105.5,
+    ComponentsMass: 9255.5,
     Dimensions: {
         Length: 36,
         Width: 26.5,
@@ -16157,7 +16182,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 36e6,
         FuelIntakeRate: 20,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -16225,14 +16250,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 4,
         CargoContainers: 0,
-        ExternalStorage: .65,
+        ExternalStorage: 0,
         PersonalInventory: .93
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 86877,
-    ComponentsMass: 2096.2,
+    ComponentsMass: 2195.2,
     Dimensions: {
         Length: 20,
         Width: 13,
@@ -16367,9 +16392,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 2934e4,
+        FuelCapacity: 28e6,
         FuelIntakeRate: 15,
-        QuantumFuelCapacity: 1e6,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -16383,7 +16408,7 @@ const shipList = [{
             Maneuvering: 2426
         },
         IntakeToMainFuelRatio: 3.12,
-        TimeForIntakesToFillTank: 1956e3
+        TimeForIntakesToFillTank: 186666667e-2
     },
     Emissions: {
         Electromagnetic: {
@@ -16437,14 +16462,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 2,
         CargoContainers: 0,
-        ExternalStorage: .65,
+        ExternalStorage: 0,
         PersonalInventory: 4
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 86877,
-    ComponentsMass: 2096.2,
+    ComponentsMass: 2195.2,
     Dimensions: {
         Length: 20,
         Width: 13,
@@ -16579,9 +16604,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 4401e4,
+        FuelCapacity: 56e6,
         FuelIntakeRate: 15,
-        QuantumFuelCapacity: 15e5,
+        QuantumFuelCapacity: 22e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -16595,7 +16620,7 @@ const shipList = [{
             Maneuvering: 2426
         },
         IntakeToMainFuelRatio: 3.12,
-        TimeForIntakesToFillTank: 2934e3
+        TimeForIntakesToFillTank: 373333333e-2
     },
     Emissions: {
         Electromagnetic: {
@@ -16650,14 +16675,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 2,
         CargoContainers: 0,
-        ExternalStorage: .65,
+        ExternalStorage: 0,
         PersonalInventory: .93
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 92877,
-    ComponentsMass: 3526.2,
+    ComponentsMass: 3735.2,
     Dimensions: {
         Length: 20,
         Width: 13,
@@ -16792,9 +16817,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 2934e4,
+        FuelCapacity: 28e6,
         FuelIntakeRate: 15,
-        QuantumFuelCapacity: 1e6,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -16808,13 +16833,13 @@ const shipList = [{
             Maneuvering: 2426
         },
         IntakeToMainFuelRatio: 3.12,
-        TimeForIntakesToFillTank: 1956e3
+        TimeForIntakesToFillTank: 186666667e-2
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 2334,
+            SCMIdle: 2339,
             SCMActive: 2524,
-            NAV: 9858
+            NAV: 9864
         },
         Infrared: {
             Start: 9130
@@ -16870,7 +16895,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 5600,
-    ComponentsMass: 768,
+    ComponentsMass: 853,
     Dimensions: {
         Length: 6,
         Width: 2.5,
@@ -17077,7 +17102,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 5600,
-    ComponentsMass: 538,
+    ComponentsMass: 853,
     Dimensions: {
         Length: 6,
         Width: 2.5,
@@ -17227,12 +17252,12 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 576,
-            SCMActive: 930,
+            SCMIdle: 588,
+            SCMActive: 950,
             NAV: 0
         },
         Infrared: {
-            Start: 518
+            Start: 602
         },
         CrossSection: {
             Front: 334,
@@ -17255,7 +17280,7 @@ const shipList = [{
             AmmoLoad: 0
         },
         TotalShieldHP: 0,
-        PilotBurstDPS: 0,
+        PilotBurstDPS: 749,
         TurretsBurstDPS: 0,
         TotalMissilesDmg: 0
     },
@@ -17284,7 +17309,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 65705,
-    ComponentsMass: 1992,
+    ComponentsMass: 2082,
     Dimensions: {
         Length: 23.5,
         Width: 12.5,
@@ -17423,7 +17448,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 105e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -17484,21 +17509,21 @@ const shipList = [{
 }, {
     ClassName: "DRAK_Mule",
     Name: "Drake Mule",
-    Description: "The six-wheeled Drake Mule is a dependable workhouse for all sorts of loading and hauling jobs. Whether transporting cargo over rough terrain or ferrying it onto larger vessels and cargo decks, the Mule sees even the toughest contracts through to the end. Plain and simple.",
+    Description: "The six-wheeled Drake Mule is a dependable workhorse for all sorts of loading and hauling jobs. Whether transporting cargo over rough terrain or ferrying it onto larger vessels and cargo decks, the Mule sees even the toughest contracts through to the end. Plain and simple.",
     Career: "Ground",
     Role: "Ground",
     Size: 1,
     Cargo: {
         CargoGrid: 1,
         CargoContainers: 0,
-        ExternalStorage: .125,
+        ExternalStorage: .75,
         PersonalInventory: .73
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 2780,
-    ComponentsMass: 265,
+    ComponentsMass: 264,
     Dimensions: {
         Length: 4.2,
         Width: 3,
@@ -17616,7 +17641,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 186103,
-    ComponentsMass: 2934.2,
+    ComponentsMass: 3033.2,
     Dimensions: {
         Length: 33,
         Width: 16,
@@ -17758,7 +17783,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 36e6,
         FuelIntakeRate: 20,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -17833,7 +17858,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 171700,
-    ComponentsMass: 5040,
+    ComponentsMass: 5190,
     Dimensions: {
         Length: 34,
         Width: 32,
@@ -17983,7 +18008,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 39e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -18058,7 +18083,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 51352.06,
-    ComponentsMass: 2922,
+    ComponentsMass: 3022,
     Dimensions: {
         Length: 26,
         Width: 23.3,
@@ -18243,7 +18268,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 8e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -18318,7 +18343,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 51352.06,
-    ComponentsMass: 4544,
+    ComponentsMass: 4644,
     Dimensions: {
         Length: 26,
         Width: 23.3,
@@ -18503,7 +18528,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 8e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -18572,13 +18597,13 @@ const shipList = [{
         CargoGrid: 6,
         CargoContainers: 0,
         ExternalStorage: .25,
-        PersonalInventory: 1.14
+        PersonalInventory: 1.06
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 86877,
-    ComponentsMass: 3584.2,
+    ComponentsMass: 3749.2,
     Dimensions: {
         Length: 25,
         Width: 28,
@@ -18737,9 +18762,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 438e5,
+        FuelCapacity: 4e7,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 1e6,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 7.5,
             Retro: 3.75,
@@ -19175,7 +19200,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 3570,
-    ComponentsMass: 129,
+    ComponentsMass: 128,
     Dimensions: {
         Length: 4.2,
         Width: 2.8,
@@ -19287,7 +19312,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 8479,
-    ComponentsMass: 1375,
+    ComponentsMass: 1460,
     Dimensions: {
         Length: 12,
         Width: 7.7,
@@ -19491,7 +19516,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 8479,
-    ComponentsMass: 1736,
+    ComponentsMass: 1821,
     Dimensions: {
         Length: 12,
         Width: 7.7,
@@ -19695,7 +19720,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 231696,
-    ComponentsMass: 7148,
+    ComponentsMass: 7233,
     Dimensions: {
         Length: 38,
         Width: 23.5,
@@ -19828,7 +19853,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 108e6,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 3.75,
@@ -19903,7 +19928,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 234718,
-    ComponentsMass: 6900,
+    ComponentsMass: 6985,
     Dimensions: {
         Length: 38,
         Width: 23.5,
@@ -20038,9 +20063,9 @@ const shipList = [{
         }
     },
     FuelManagement: {
-        FuelCapacity: 1045e5,
+        FuelCapacity: 14e7,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 24e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 3.75,
@@ -20054,7 +20079,7 @@ const shipList = [{
             Maneuvering: 2267.5
         },
         IntakeToMainFuelRatio: 2.76,
-        TimeForIntakesToFillTank: 209e4
+        TimeForIntakesToFillTank: 28e5
     },
     Emissions: {
         Electromagnetic: {
@@ -20115,7 +20140,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 360208,
-    ComponentsMass: 7240,
+    ComponentsMass: 7340,
     Dimensions: {
         Length: 38,
         Width: 36,
@@ -20251,7 +20276,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 585e5,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 5,
@@ -20326,7 +20351,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 236353,
-    ComponentsMass: 9222,
+    ComponentsMass: 9312,
     Dimensions: {
         Length: 38,
         Width: 23.5,
@@ -20460,7 +20485,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 58e6,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -20528,14 +20553,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .06,
+        ExternalStorage: .45,
         PersonalInventory: .22
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 15339,
-    ComponentsMass: 2626,
+    ComponentsMass: 2705,
     Dimensions: {
         Length: 8,
         Width: 5.4,
@@ -20697,9 +20722,9 @@ const shipList = [{
             Start: 11790
         },
         CrossSection: {
-            Front: 0,
-            Side: 0,
-            Top: 0
+            Front: 3265,
+            Side: 6429,
+            Top: 6058
         }
     },
     ResourceNetwork: {
@@ -20746,14 +20771,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .06,
+        ExternalStorage: .45,
         PersonalInventory: .22
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 14232,
-    ComponentsMass: 883,
+    ComponentsMass: 982,
     Dimensions: {
         Length: 7,
         Width: 5.4,
@@ -20911,9 +20936,9 @@ const shipList = [{
             Start: 11882
         },
         CrossSection: {
-            Front: 0,
-            Side: 0,
-            Top: 0
+            Front: 3498,
+            Side: 6888,
+            Top: 6490
         }
     },
     ResourceNetwork: {
@@ -20959,14 +20984,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .06,
+        ExternalStorage: .45,
         PersonalInventory: .22
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 15339,
-    ComponentsMass: 3298,
+    ComponentsMass: 3377,
     Dimensions: {
         Length: 7,
         Width: 5.4,
@@ -21128,9 +21153,9 @@ const shipList = [{
             Start: 9830
         },
         CrossSection: {
-            Front: 0,
-            Side: 0,
-            Top: 0
+            Front: 3265,
+            Side: 6429,
+            Top: 6058
         }
     },
     ResourceNetwork: {
@@ -21176,14 +21201,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 64,
         CargoContainers: 0,
-        ExternalStorage: .2,
+        ExternalStorage: 0,
         PersonalInventory: 1.01
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 122650,
-    ComponentsMass: 2431,
+    ComponentsMass: 2535,
     Dimensions: {
         Length: 17,
         Width: 4,
@@ -21364,7 +21389,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 16399999999999998e-9,
         FuelIntakeRate: 7,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 2.5,
@@ -21437,14 +21462,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 4608,
         CargoContainers: 0,
-        ExternalStorage: 32,
+        ExternalStorage: 0,
         PersonalInventory: 6.79
     },
     Crew: 1,
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 886930,
-    ComponentsMass: 24316.8,
+    ComponentsMass: 24482.8,
     Dimensions: {
         Length: 90,
         Width: 35.5,
@@ -21619,7 +21644,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 877e6,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 28e6,
+        QuantumFuelCapacity: 86e5,
         FuelBurnRatePer10KNewton: {
             Main: 7.5,
             Retro: 5,
@@ -21700,7 +21725,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 137396,
-    ComponentsMass: 3381,
+    ComponentsMass: 3471,
     Dimensions: {
         Length: 26.5,
         Width: 16.5,
@@ -21839,7 +21864,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 21e6,
         FuelIntakeRate: 13,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 3.75,
@@ -21857,9 +21882,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 22562,
+            SCMIdle: 22563,
             SCMActive: 27029,
-            NAV: 33849
+            NAV: 33850
         },
         Infrared: {
             Start: 13549
@@ -21914,7 +21939,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 11701,
-    ComponentsMass: 1455,
+    ComponentsMass: 1535,
     Dimensions: {
         Length: 11.5,
         Width: 8.2,
@@ -22051,7 +22076,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 3e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 4e5,
+        QuantumFuelCapacity: 1e6,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -22126,7 +22151,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 11700,
-    ComponentsMass: 1479,
+    ComponentsMass: 1559,
     Dimensions: {
         Length: 11.5,
         Width: 8.2,
@@ -22263,7 +22288,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 3e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 4e5,
+        QuantumFuelCapacity: 1e6,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -22339,7 +22364,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 11701,
-    ComponentsMass: 1303,
+    ComponentsMass: 1383,
     Dimensions: {
         Length: 11.5,
         Width: 8.2,
@@ -22476,7 +22501,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 3e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 4e5,
+        QuantumFuelCapacity: 1e6,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -22552,7 +22577,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 39353,
-    ComponentsMass: 3414,
+    ComponentsMass: 3504,
     Dimensions: {
         Length: 14.5,
         Width: 28.5,
@@ -22688,7 +22713,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 105e5,
         FuelIntakeRate: 8,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -22706,9 +22731,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 4288,
+            SCMIdle: 4287,
             SCMActive: 4928,
-            NAV: 11821
+            NAV: 11820
         },
         Infrared: {
             Start: 9106
@@ -22763,7 +22788,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 39353,
-    ComponentsMass: 2374,
+    ComponentsMass: 2464,
     Dimensions: {
         Length: 14.5,
         Width: 28.5,
@@ -22899,7 +22924,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 105e5,
         FuelIntakeRate: 4,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -22917,9 +22942,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 3403,
+            SCMIdle: 3402,
             SCMActive: 3875,
-            NAV: 10936
+            NAV: 10935
         },
         Infrared: {
             Start: 9321
@@ -22974,7 +22999,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 39353,
-    ComponentsMass: 3434,
+    ComponentsMass: 3524,
     Dimensions: {
         Length: 14.5,
         Width: 28.5,
@@ -23110,7 +23135,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 105e5,
         FuelIntakeRate: 4,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -23128,9 +23153,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 3400,
+            SCMIdle: 3398,
             SCMActive: 3875,
-            NAV: 10933
+            NAV: 10932
         },
         Infrared: {
             Start: 9321
@@ -23185,7 +23210,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 39168,
-    ComponentsMass: 4264,
+    ComponentsMass: 4354,
     Dimensions: {
         Length: 14.5,
         Width: 28.5,
@@ -23321,7 +23346,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 75e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 5,
@@ -23339,9 +23364,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 4446,
+            SCMIdle: 4445,
             SCMActive: 4922,
-            NAV: 11979
+            NAV: 11978
         },
         Infrared: {
             Start: 9544
@@ -23396,7 +23421,7 @@ const shipList = [{
     WeaponCrew: 3,
     OperationsCrew: 0,
     Mass: 3555606,
-    ComponentsMass: 20130,
+    ComponentsMass: 22435,
     Dimensions: {
         Length: 101,
         Width: 46.5,
@@ -23534,7 +23559,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 6522e5,
         FuelIntakeRate: 220,
-        QuantumFuelCapacity: 18e6,
+        QuantumFuelCapacity: 86e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 2.5,
@@ -23557,7 +23582,7 @@ const shipList = [{
             NAV: 58845
         },
         Infrared: {
-            Start: 21863
+            Start: 22983
         },
         CrossSection: {
             Front: 8170,
@@ -23609,7 +23634,7 @@ const shipList = [{
     WeaponCrew: 3,
     OperationsCrew: 0,
     Mass: 3583690,
-    ComponentsMass: 19581,
+    ComponentsMass: 21886,
     Dimensions: {
         Length: 101,
         Width: 46.5,
@@ -23747,7 +23772,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 6522e5,
         FuelIntakeRate: 100,
-        QuantumFuelCapacity: 18e6,
+        QuantumFuelCapacity: 86e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 2.5,
@@ -23770,7 +23795,7 @@ const shipList = [{
             NAV: 55065
         },
         Infrared: {
-            Start: 17710
+            Start: 18830
         },
         CrossSection: {
             Front: 6735,
@@ -23815,14 +23840,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 224,
         CargoContainers: 0,
-        ExternalStorage: 0,
+        ExternalStorage: 2.6,
         PersonalInventory: 8
     },
     Crew: 1,
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 814270.5,
-    ComponentsMass: 9554,
+    ComponentsMass: 9709,
     Dimensions: {
         Length: 83,
         Width: 52,
@@ -23919,17 +23944,17 @@ const shipList = [{
         IsVtolAssisted: !0,
         UseDirectionModifiers: !0,
         ThrustCapacity: {
-            Main: 477e5,
+            Main: 335e5,
             Retro: 15e6,
-            Vtol: 212e5,
-            Maneuvering: 596e5
+            Vtol: 7e6,
+            Maneuvering: 732e5
         },
         AccelerationG: {
             IsValidated: !0,
             Main: 3.2,
             Retro: 1.7,
             Strafe: 2,
-            Up: 3.2,
+            Up: 2.4,
             Down: 2.4
         },
         MasterModes: {
@@ -23983,7 +24008,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 5e7,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 36e5,
         FuelBurnRatePer10KNewton: {
             Main: 8.75,
             Retro: 2.5,
@@ -23993,8 +24018,8 @@ const shipList = [{
         FuelUsagePerSecond: {
             Main: 5187.5,
             Retro: 1875,
-            Vtol: 2650,
-            Maneuvering: 7450
+            Vtol: 875,
+            Maneuvering: 9150
         },
         IntakeToMainFuelRatio: .96,
         TimeForIntakesToFillTank: 1e6
@@ -24037,7 +24062,454 @@ const shipList = [{
         StandardClaimTime: 40,
         ExpeditedClaimTime: 15,
         ExpeditedCost: 15e3
-    }
+    },
+    "New Ship": "MISC Starlancer MAX"
+}, {
+    ClassName: "MRAI_Guardian",
+    Name: "Mirai Guardian",
+    Description: "Taking the adage that the best defense is a good offense, Mirai engineers have brought their expertise in performance and maneuverability to the Guardian long range fighter.  Fly circles around your opponents with the Mirai Guardian while establishing your space superiority. ",
+    Career: "Combat",
+    Role: "Heavy Fighter",
+    Size: 2,
+    Cargo: {
+        CargoGrid: 0,
+        CargoContainers: 0,
+        ExternalStorage: 1.1,
+        PersonalInventory: .65
+    },
+    Crew: 1,
+    WeaponCrew: 0,
+    OperationsCrew: 0,
+    Mass: 117500,
+    ComponentsMass: 6032.2,
+    Dimensions: {
+        Length: 25,
+        Width: 16.5,
+        Height: 9
+    },
+    IsSpaceship: !0,
+    Armor: {
+        DamageMultipliers: {
+            Physical: .5,
+            Energy: 1.05,
+            Distortion: 1.1
+        },
+        SignalMultipliers: {
+            Electromagnetic: 1.3,
+            Infrared: 1.3,
+            CrossSection: 1
+        }
+    },
+    Hull: {
+        StructureHealthPoints: {
+            VitalParts: {
+                geo_body: 7350
+            },
+            Parts: {
+                geo_wing_left_top_middle: 4e3,
+                geo_wing_left_top_back: 2500,
+                geo_wing_left_top_front: 3e3,
+                geo_wing_arm_left_rear_top_a: 300,
+                geo_wing_right_top_middle: 4e3,
+                geo_wing_right_top_back: 2500,
+                geo_wing_right_top_front: 3e3,
+                geo_wing_arm_right_rear_top_a: 300,
+                geo_wing_bottom_left_middle: 4e3,
+                geo_wing_bottom_left_back: 2500,
+                geo_wing_bottom_left_front: 3e3,
+                geo_wing_bottom_right_middle: 4e3,
+                geo_wing_bottom_right_back: 2500,
+                geo_wing_bottom_right_front: 3e3,
+                geo_thruster_arm_left_b: 5e3,
+                geo_thruster_arm_left_c: 5e3,
+                geo_thruster_arm_right_b: 5e3,
+                geo_thruster_arm_right_c: 5e3,
+                geo_body_top_front_b: 300
+            }
+        },
+        ThrustersHealthPoints: {
+            Main: {
+                thruster_main_left: 5e3,
+                thruster_main_right: 5e3
+            },
+            Retro: {
+                thruster_retro_top_left: 1e3,
+                thruster_retro_top_right: 1e3,
+                thruster_retro_bottom_left: 1e3,
+                thruster_retro_bottom_right: 1e3
+            },
+            Maneuvering: {
+                thruster_wing_top_left_mid: 1e3,
+                thruster_wing_top_left_rear: 1e3,
+                thruster_wing_top_left_front_lateral: 1e3,
+                thruster_wing_top_left_front: 1e3,
+                thruster_wing_top_right_mid: 1e3,
+                thruster_wing_top_right_rear: 1e3,
+                thruster_wing_top_right_front_lateral: 1e3,
+                thruster_wing_top_right_front: 1e3,
+                thruster_wing_bot_left_mid: 1e3,
+                thruster_wing_bot_left_rear: 1e3,
+                thruster_wing_bot_left_front_lateral: 1e3,
+                thruster_wing_bot_left_front: 1e3,
+                thruster_wing_bot_right_mid: 1e3,
+                thruster_wing_bot_right_rear: 1e3,
+                thruster_wing_bot_right_front: 1e3,
+                thruster_wing_bot_right_front_lateral: 1e3
+            }
+        }
+    },
+    FlightCharacteristics: {
+        ScmSpeed: 213,
+        MaxSpeed: 1125,
+        Pitch: 37.5,
+        Yaw: 37.5,
+        Roll: 130,
+        IsVtolAssisted: !1,
+        UseDirectionModifiers: !0,
+        ThrustCapacity: {
+            Main: 471e4,
+            Retro: 47e5,
+            Vtol: 0,
+            Maneuvering: 3172e4
+        },
+        AccelerationG: {
+            IsValidated: !0,
+            Main: 10.3,
+            Retro: 3.8,
+            Strafe: 8.2,
+            Up: 8.2,
+            Down: 8.2
+        },
+        MasterModes: {
+            BaseSpoolTime: 1,
+            QuantumDriveSpoolTime: 6,
+            ScmMode: {
+                BoostSpeedForward: 465,
+                BoostSpeedBackward: 225
+            }
+        },
+        Boost: {
+            PreDelay: 0,
+            RampUp: .6,
+            RampDown: .3,
+            AccelerationMultiplier: {
+                PositiveAxis: {
+                    X: 1.35,
+                    Y: 1.5,
+                    Z: 1.3
+                },
+                NegativeAxis: {
+                    X: 1.35,
+                    Y: 1.4,
+                    Z: 1.4
+                }
+            },
+            AngularAccelerationMultiplier: {
+                Pitch: 1.2,
+                Yaw: 1.2,
+                Roll: 1.2
+            },
+            AngularVelocityMultiplier: {
+                Pitch: 1.2,
+                Yaw: 1.2,
+                Roll: 1.2
+            }
+        },
+        Capacitors: {
+            ThrusterCapacitorSize: 20,
+            CapacitorRegenPerSec: .75,
+            CapacitorIdleCost: 1,
+            CapacitorLinearCost: 0,
+            CapacitorUsageModifier: 1,
+            CapacitorRegenDelay: .7,
+            RegenerationTime: 26.7,
+            X_AccelMultiplicator: 2,
+            Y_AccelMultiplicator: 2,
+            Z_AccelMultiplicator: 2
+        }
+    },
+    FuelManagement: {
+        FuelCapacity: 9e6,
+        FuelIntakeRate: 30,
+        QuantumFuelCapacity: 18e5,
+        FuelBurnRatePer10KNewton: {
+            Main: 2.5,
+            Retro: 5,
+            Vtol: 0,
+            Maneuvering: 20
+        },
+        FuelUsagePerSecond: {
+            Main: 588.75,
+            Retro: 587.5,
+            Vtol: 0,
+            Maneuvering: 3965
+        },
+        IntakeToMainFuelRatio: 5.1,
+        TimeForIntakesToFillTank: 3e5
+    },
+    Emissions: {
+        Electromagnetic: {
+            SCMIdle: 8163,
+            SCMActive: 10163,
+            NAV: 28396
+        },
+        Infrared: {
+            Start: 13105
+        },
+        CrossSection: {
+            Front: 3333,
+            Side: 6e3,
+            Top: 9e3
+        }
+    },
+    ResourceNetwork: {
+        ItemPools: {
+            WeaponPoolSize: 4
+        }
+    },
+    Weapons: {
+        PilotWeaponRegenPool: {
+            RegenFillRate: 0,
+            AmmoLoad: 0
+        },
+        TurretsWeaponRegenPool: {
+            RegenFillRate: 0,
+            AmmoLoad: 0
+        },
+        TotalShieldHP: 4740,
+        PilotBurstDPS: 3073,
+        TurretsBurstDPS: 0,
+        TotalMissilesDmg: 38059
+    },
+    Insurance: {
+        StandardClaimTime: 13.33,
+        ExpeditedClaimTime: 3.33,
+        ExpeditedCost: 6460
+    },
+    "New Ship": "Mirai Guardian"
+}, {
+    ClassName: "MRAI_Guardian_QI",
+    Name: "Mirai Guardian QI",
+    Description: "Taking the adage that the best defense is a good offense, Mirai engineers have brought their expertise in performance and maneuverability to the Guardian long range fighter.  Fly circles around your opponents with the Mirai Guardian while establishing your space superiority. ",
+    Career: "Combat",
+    Role: "Interdiction",
+    Size: 2,
+    Cargo: {
+        CargoGrid: 0,
+        CargoContainers: 0,
+        ExternalStorage: 1.1,
+        PersonalInventory: .65
+    },
+    Crew: 1,
+    WeaponCrew: 0,
+    OperationsCrew: 0,
+    Mass: 117500,
+    ComponentsMass: 5475.2,
+    Dimensions: {
+        Length: 25,
+        Width: 16.5,
+        Height: 9
+    },
+    IsSpaceship: !0,
+    Armor: {
+        DamageMultipliers: {
+            Physical: .5,
+            Energy: 1.05,
+            Distortion: 1.1
+        },
+        SignalMultipliers: {
+            Electromagnetic: 1.3,
+            Infrared: 1.3,
+            CrossSection: 1
+        }
+    },
+    Hull: {
+        StructureHealthPoints: {
+            VitalParts: {
+                geo_body: 7350
+            },
+            Parts: {
+                geo_wing_left_top_middle: 4e3,
+                geo_wing_left_top_back: 2500,
+                geo_wing_left_top_front: 3e3,
+                geo_wing_arm_left_rear_top_a: 300,
+                geo_wing_right_top_middle: 4e3,
+                geo_wing_right_top_back: 2500,
+                geo_wing_right_top_front: 3e3,
+                geo_wing_arm_right_rear_top_a: 300,
+                geo_wing_bottom_left_middle: 4e3,
+                geo_wing_bottom_left_back: 2500,
+                geo_wing_bottom_left_front: 3e3,
+                geo_wing_bottom_right_middle: 4e3,
+                geo_wing_bottom_right_back: 2500,
+                geo_wing_bottom_right_front: 3e3,
+                geo_thruster_arm_left_b: 5e3,
+                geo_thruster_arm_left_c: 5e3,
+                geo_thruster_arm_right_b: 5e3,
+                geo_thruster_arm_right_c: 5e3,
+                geo_body_top_front_b: 300
+            }
+        },
+        ThrustersHealthPoints: {
+            Main: {
+                thruster_main_left: 5e3,
+                thruster_main_right: 5e3
+            },
+            Retro: {
+                thruster_retro_top_left: 1e3,
+                thruster_retro_top_right: 1e3,
+                thruster_retro_bottom_left: 1e3,
+                thruster_retro_bottom_right: 1e3
+            },
+            Maneuvering: {
+                thruster_wing_top_left_mid: 1e3,
+                thruster_wing_top_left_rear: 1e3,
+                thruster_wing_top_left_front_lateral: 1e3,
+                thruster_wing_top_left_front: 1e3,
+                thruster_wing_top_right_mid: 1e3,
+                thruster_wing_top_right_rear: 1e3,
+                thruster_wing_top_right_front_lateral: 1e3,
+                thruster_wing_top_right_front: 1e3,
+                thruster_wing_bot_left_mid: 1e3,
+                thruster_wing_bot_left_rear: 1e3,
+                thruster_wing_bot_left_front_lateral: 1e3,
+                thruster_wing_bot_left_front: 1e3,
+                thruster_wing_bot_right_mid: 1e3,
+                thruster_wing_bot_right_rear: 1e3,
+                thruster_wing_bot_right_front: 1e3,
+                thruster_wing_bot_right_front_lateral: 1e3
+            }
+        }
+    },
+    FlightCharacteristics: {
+        ScmSpeed: 210,
+        MaxSpeed: 1100,
+        Pitch: 35,
+        Yaw: 35,
+        Roll: 120,
+        IsVtolAssisted: !1,
+        UseDirectionModifiers: !0,
+        ThrustCapacity: {
+            Main: 471e4,
+            Retro: 47e5,
+            Vtol: 0,
+            Maneuvering: 3172e4
+        },
+        AccelerationG: {
+            IsValidated: !0,
+            Main: 10.3,
+            Retro: 3.8,
+            Strafe: 8.2,
+            Up: 8.2,
+            Down: 8.2
+        },
+        MasterModes: {
+            BaseSpoolTime: 1,
+            QuantumDriveSpoolTime: 6,
+            ScmMode: {
+                BoostSpeedForward: 460,
+                BoostSpeedBackward: 225
+            }
+        },
+        Boost: {
+            PreDelay: 0,
+            RampUp: .6,
+            RampDown: .3,
+            AccelerationMultiplier: {
+                PositiveAxis: {
+                    X: 1.35,
+                    Y: 1.5,
+                    Z: 1.3
+                },
+                NegativeAxis: {
+                    X: 1.35,
+                    Y: 1.4,
+                    Z: 1.4
+                }
+            },
+            AngularAccelerationMultiplier: {
+                Pitch: 1.2,
+                Yaw: 1.2,
+                Roll: 1.2
+            },
+            AngularVelocityMultiplier: {
+                Pitch: 1.2,
+                Yaw: 1.2,
+                Roll: 1.2
+            }
+        },
+        Capacitors: {
+            ThrusterCapacitorSize: 20,
+            CapacitorRegenPerSec: .75,
+            CapacitorIdleCost: 1,
+            CapacitorLinearCost: 0,
+            CapacitorUsageModifier: 1,
+            CapacitorRegenDelay: .7,
+            RegenerationTime: 26.7,
+            X_AccelMultiplicator: 2,
+            Y_AccelMultiplicator: 2,
+            Z_AccelMultiplicator: 2
+        }
+    },
+    FuelManagement: {
+        FuelCapacity: 9e6,
+        FuelIntakeRate: 30,
+        QuantumFuelCapacity: 18e5,
+        FuelBurnRatePer10KNewton: {
+            Main: 2.5,
+            Retro: 5,
+            Vtol: 0,
+            Maneuvering: 20
+        },
+        FuelUsagePerSecond: {
+            Main: 588.75,
+            Retro: 587.5,
+            Vtol: 0,
+            Maneuvering: 3965
+        },
+        IntakeToMainFuelRatio: 5.1,
+        TimeForIntakesToFillTank: 3e5
+    },
+    Emissions: {
+        Electromagnetic: {
+            SCMIdle: 11825,
+            SCMActive: 18220,
+            NAV: 32058
+        },
+        Infrared: {
+            Start: 13255
+        },
+        CrossSection: {
+            Front: 3333,
+            Side: 6e3,
+            Top: 9e3
+        }
+    },
+    ResourceNetwork: {
+        ItemPools: {
+            WeaponPoolSize: 4
+        }
+    },
+    Weapons: {
+        PilotWeaponRegenPool: {
+            RegenFillRate: 0,
+            AmmoLoad: 0
+        },
+        TurretsWeaponRegenPool: {
+            RegenFillRate: 0,
+            AmmoLoad: 0
+        },
+        TotalShieldHP: 4740,
+        PilotBurstDPS: 3073,
+        TurretsBurstDPS: 0,
+        TotalMissilesDmg: 20211
+    },
+    Insurance: {
+        StandardClaimTime: 13.33,
+        ExpeditedClaimTime: 3.33,
+        ExpeditedCost: 6460
+    },
+    "New Ship": "Mirai Guardian QI"
 }, {
     ClassName: "MRAI_Pulse",
     Name: "Mirai Pulse",
@@ -24055,7 +24527,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 2140,
-    ComponentsMass: 373,
+    ComponentsMass: 468,
     Dimensions: {
         Length: 3.15,
         Width: .9,
@@ -24270,7 +24742,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 2140,
-    ComponentsMass: 148,
+    ComponentsMass: 248,
     Dimensions: {
         Length: 3.15,
         Width: .9,
@@ -24483,7 +24955,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 48143,
-    ComponentsMass: 1934,
+    ComponentsMass: 2014,
     Dimensions: {
         Length: 19,
         Width: 11,
@@ -24611,7 +25083,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 65e5,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -24687,7 +25159,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 48143,
-    ComponentsMass: 2512,
+    ComponentsMass: 2592,
     Dimensions: {
         Length: 19,
         Width: 11,
@@ -24815,7 +25287,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 65e5,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -24890,7 +25362,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 48143,
-    ComponentsMass: 2374,
+    ComponentsMass: 2454,
     Dimensions: {
         Length: 19,
         Width: 11,
@@ -25018,7 +25490,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 65e5,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -25086,14 +25558,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 8,
         CargoContainers: 0,
-        ExternalStorage: .65,
+        ExternalStorage: 0,
         PersonalInventory: 1.01
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 79677,
-    ComponentsMass: 2290,
+    ComponentsMass: 2364,
     Dimensions: {
         Length: 27,
         Width: 17,
@@ -25227,7 +25699,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 105e5,
         FuelIntakeRate: 12,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -25295,14 +25767,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 12,
         CargoContainers: 0,
-        ExternalStorage: .65,
+        ExternalStorage: 0,
         PersonalInventory: .93
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 80592,
-    ComponentsMass: 2020,
+    ComponentsMass: 2094,
     Dimensions: {
         Length: 27,
         Width: 17,
@@ -25436,7 +25908,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 18e6,
         FuelIntakeRate: 12,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -25504,14 +25976,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 4,
         CargoContainers: 0,
-        ExternalStorage: .65,
+        ExternalStorage: 0,
         PersonalInventory: .71
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 79324,
-    ComponentsMass: 3646,
+    ComponentsMass: 3720,
     Dimensions: {
         Length: 27,
         Width: 17,
@@ -25645,7 +26117,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 18e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -25720,7 +26192,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 88107,
-    ComponentsMass: 1972,
+    ComponentsMass: 2047,
     Dimensions: {
         Length: 27,
         Width: 17,
@@ -25854,7 +26326,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 27e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -25929,7 +26401,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 430057.06,
-    ComponentsMass: 8398,
+    ComponentsMass: 8493,
     Dimensions: {
         Length: 56,
         Width: 32,
@@ -25991,33 +26463,33 @@ const shipList = [{
         }
     },
     FlightCharacteristics: {
-        ScmSpeed: 200,
-        MaxSpeed: 1e3,
-        Pitch: 30,
-        Yaw: 30,
-        Roll: 60,
+        ScmSpeed: 215,
+        MaxSpeed: 1150,
+        Pitch: 35,
+        Yaw: 35,
+        Roll: 70,
         IsVtolAssisted: !1,
         UseDirectionModifiers: !0,
         ThrustCapacity: {
-            Main: 22420389,
-            Retro: 112e5,
-            Vtol: 1132e4,
-            Maneuvering: 34853920
+            Main: 24665060,
+            Retro: 121e5,
+            Vtol: 11314548,
+            Maneuvering: 3774e4
         },
         AccelerationG: {
             IsValidated: !0,
-            Main: 5.1,
-            Retro: 2.5,
-            Strafe: 1.8,
-            Up: 3.1,
-            Down: 3.4
+            Main: 5.6,
+            Retro: 2.7,
+            Strafe: 2.4,
+            Up: 3.2,
+            Down: 2.7
         },
         MasterModes: {
             BaseSpoolTime: 1,
             QuantumDriveSpoolTime: 6,
             ScmMode: {
-                BoostSpeedForward: 400,
-                BoostSpeedBackward: 205
+                BoostSpeedForward: 450,
+                BoostSpeedBackward: 210
             }
         },
         Boost: {
@@ -26063,7 +26535,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 6e7,
         FuelIntakeRate: 50,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 36e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 2.5,
@@ -26071,12 +26543,12 @@ const shipList = [{
             Maneuvering: 12.5
         },
         FuelUsagePerSecond: {
-            Main: 2802.549,
-            Retro: 1400,
-            Vtol: 1415,
-            Maneuvering: 4356.74
+            Main: 3083.132,
+            Retro: 1512.5,
+            Vtol: 1414.318,
+            Maneuvering: 4717.5
         },
-        IntakeToMainFuelRatio: 1.78,
+        IntakeToMainFuelRatio: 1.62,
         TimeForIntakesToFillTank: 12e5
     },
     Emissions: {
@@ -26139,7 +26611,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 1622067,
-    ComponentsMass: 15224,
+    ComponentsMass: 15324,
     Dimensions: {
         Length: 91.5,
         Width: 52,
@@ -26273,7 +26745,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 18e7,
         FuelIntakeRate: 150,
-        QuantumFuelCapacity: 4e6,
+        QuantumFuelCapacity: 51e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -26348,7 +26820,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 1613414,
-    ComponentsMass: 15224,
+    ComponentsMass: 15324,
     Dimensions: {
         Length: 91.5,
         Width: 52,
@@ -26482,7 +26954,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 18e7,
         FuelIntakeRate: 150,
-        QuantumFuelCapacity: 4e6,
+        QuantumFuelCapacity: 51e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -26557,7 +27029,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 19833.5,
-    ComponentsMass: 4722,
+    ComponentsMass: 4802,
     Dimensions: {
         Length: 13,
         Width: 10,
@@ -26684,7 +27156,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 4e5,
+        QuantumFuelCapacity: 1e6,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -26759,7 +27231,7 @@ const shipList = [{
     WeaponCrew: 8,
     OperationsCrew: 0,
     Mass: 44237159,
-    ComponentsMass: 85228,
+    ComponentsMass: 85353,
     Dimensions: {
         Length: 210,
         Width: 80,
@@ -26916,7 +27388,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 12e8,
         FuelIntakeRate: 600,
-        QuantumFuelCapacity: 12e6,
+        QuantumFuelCapacity: 146e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -26934,12 +27406,12 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 25658,
-            SCMActive: 36787,
-            NAV: 57894
+            SCMIdle: 25659,
+            SCMActive: 36789,
+            NAV: 57895
         },
         Infrared: {
-            Start: 20292
+            Start: 24492
         },
         CrossSection: {
             Front: 7746,
@@ -26963,7 +27435,7 @@ const shipList = [{
         },
         TotalShieldHP: 908e3,
         PilotBurstDPS: 0,
-        TurretsBurstDPS: 6284,
+        TurretsBurstDPS: 8617,
         TotalMissilesDmg: 96329
     },
     Insurance: {
@@ -26992,7 +27464,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 10552,
-    ComponentsMass: 1455,
+    ComponentsMass: 1525,
     Dimensions: {
         Length: 11.5,
         Width: 11,
@@ -27126,7 +27598,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 3e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 4e5,
+        QuantumFuelCapacity: 1e6,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -27202,7 +27674,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 4730,
-    ComponentsMass: 563,
+    ComponentsMass: 693,
     Dimensions: {
         Length: 5.5,
         Width: 1.25,
@@ -27441,7 +27913,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 4730,
-    ComponentsMass: 598,
+    ComponentsMass: 728,
     Dimensions: {
         Length: 5.5,
         Width: 1.25,
@@ -27680,7 +28152,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 4730,
-    ComponentsMass: 448,
+    ComponentsMass: 573,
     Dimensions: {
         Length: 5.5,
         Width: 1.25,
@@ -27918,7 +28390,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 26422,
-    ComponentsMass: 2410,
+    ComponentsMass: 2355,
     Dimensions: {
         Length: 18,
         Width: 8,
@@ -28043,7 +28515,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e5,
         FuelIntakeRate: 5,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -28061,9 +28533,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 4103,
+            SCMIdle: 4097,
             SCMActive: 4843,
-            NAV: 11636
+            NAV: 11630
         },
         Infrared: {
             Start: 4641
@@ -28118,7 +28590,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 26486,
-    ComponentsMass: 1770,
+    ComponentsMass: 1825,
     Dimensions: {
         Length: 18,
         Width: 8,
@@ -28243,7 +28715,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e5,
         FuelIntakeRate: 5,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -28318,7 +28790,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 28714,
-    ComponentsMass: 2784,
+    ComponentsMass: 2839,
     Dimensions: {
         Length: 18,
         Width: 8,
@@ -28443,7 +28915,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -28518,7 +28990,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 26736,
-    ComponentsMass: 1487,
+    ComponentsMass: 1652,
     Dimensions: {
         Length: 18,
         Width: 8,
@@ -28643,7 +29115,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e5,
         FuelIntakeRate: 5,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -28661,9 +29133,9 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 4097,
+            SCMIdle: 4103,
             SCMActive: 4843,
-            NAV: 11630
+            NAV: 11636
         },
         Infrared: {
             Start: 4641
@@ -28718,7 +29190,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 27893,
-    ComponentsMass: 2362,
+    ComponentsMass: 2417,
     Dimensions: {
         Length: 18,
         Width: 8,
@@ -28843,7 +29315,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 45e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 1.25,
             Retro: 2.5,
@@ -28918,7 +29390,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 430057,
-    ComponentsMass: 11496,
+    ComponentsMass: 11636,
     Dimensions: {
         Length: 61,
         Width: 26,
@@ -29110,7 +29582,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 66e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 4.0999999999999995e6,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 5,
@@ -29184,7 +29656,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 449743,
-    ComponentsMass: 9298,
+    ComponentsMass: 9438,
     Dimensions: {
         Length: 61,
         Width: 26,
@@ -29376,7 +29848,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 1045e5,
         FuelIntakeRate: 100,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 56e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 5,
@@ -29451,7 +29923,7 @@ const shipList = [{
     WeaponCrew: 2,
     OperationsCrew: 0,
     Mass: 427001,
-    ComponentsMass: 9688,
+    ComponentsMass: 9828,
     Dimensions: {
         Length: 61,
         Width: 26,
@@ -29642,7 +30114,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 66e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 4.0999999999999995e6,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 5,
@@ -29660,12 +30132,12 @@ const shipList = [{
     },
     Emissions: {
         Electromagnetic: {
-            SCMIdle: 12370,
-            SCMActive: 13582,
-            NAV: 27850
+            SCMIdle: 12371,
+            SCMActive: 13583,
+            NAV: 27851
         },
         Infrared: {
-            Start: 17957
+            Start: 18557
         },
         CrossSection: {
             Front: 3094,
@@ -29689,7 +30161,7 @@ const shipList = [{
         },
         TotalShieldHP: 48800,
         PilotBurstDPS: 4922,
-        TurretsBurstDPS: 2182,
+        TurretsBurstDPS: 2515,
         TotalMissilesDmg: 31924
     },
     Insurance: {
@@ -29717,7 +30189,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 1,
     Mass: 427001,
-    ComponentsMass: 11508,
+    ComponentsMass: 11648,
     Dimensions: {
         Length: 69,
         Width: 26,
@@ -29907,7 +30379,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 66e6,
         FuelIntakeRate: 100,
-        QuantumFuelCapacity: 3e6,
+        QuantumFuelCapacity: 4.0999999999999995e6,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 5,
@@ -29982,7 +30454,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 11963.7,
-    ComponentsMass: 401,
+    ComponentsMass: 399,
     Dimensions: {
         Length: 7.75,
         Width: 5.7,
@@ -30097,7 +30569,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 228123,
-    ComponentsMass: 2528,
+    ComponentsMass: 2588,
     Dimensions: {
         Length: 30,
         Width: 17,
@@ -30236,7 +30708,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 63225e3,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -30304,18 +30776,18 @@ const shipList = [{
     Cargo: {
         CargoGrid: 576,
         CargoContainers: 0,
-        ExternalStorage: 0,
+        ExternalStorage: 25.6,
         PersonalInventory: 432
     },
     Crew: 12,
-    WeaponCrew: 16,
+    WeaponCrew: 9,
     OperationsCrew: 0,
     Mass: 11e6,
-    ComponentsMass: 89072,
+    ComponentsMass: 89257,
     Dimensions: {
-        Length: 181,
-        Width: 87,
-        Height: 40
+        Length: 166,
+        Width: 82,
+        Height: 46
     },
     IsSpaceship: !0,
     Armor: {
@@ -30529,7 +31001,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 11e8,
         FuelIntakeRate: 15,
-        QuantumFuelCapacity: 12e6,
+        QuantumFuelCapacity: 126e5,
         FuelBurnRatePer10KNewton: {
             Main: 7.5,
             Retro: 12.5,
@@ -30548,7 +31020,7 @@ const shipList = [{
     Emissions: {
         Electromagnetic: {
             SCMIdle: 14592,
-            SCMActive: 18674,
+            SCMActive: 18673,
             NAV: 26953
         },
         Infrared: {
@@ -30583,227 +31055,13 @@ const shipList = [{
         StandardClaimTime: 75.83,
         ExpeditedClaimTime: 18.96,
         ExpeditedCost: 44030
+    },
+    "New Ship": "RSI Polaris",
+    Dimensions2: {
+        Length: 166,
+        Width: 82,
+        Height: 35
     }
-}, {
-    ClassName: "RSI_Polaris_FW",
-    Name: "RSI Polaris Fleet Week",
-    Description: "The Polaris is a nimble corvette-class capital ship that packs a powerful punch with a full armament of turrets and torpedoes. Intended for use as both a naval patrol ship and to serve as the flagship of militia operations, Polaris has the capacity to perform search and rescue operations, light strike missions and general security patrols. The Polaris includes the facilities to repair, rearm and refuel a single fighter, light bomber or support ship.",
-    Career: "Militia / Patrol",
-    Role: "Capital Ship",
-    Size: 5,
-    Cargo: {
-        CargoGrid: 0,
-        CargoContainers: 0,
-        ExternalStorage: 0,
-        PersonalInventory: 432
-    },
-    Crew: 12,
-    WeaponCrew: 8,
-    OperationsCrew: 0,
-    Mass: 11e6,
-    ComponentsMass: 28202,
-    Dimensions: {
-        Length: 181,
-        Width: 87,
-        Height: 40
-    },
-    IsSpaceship: !0,
-    Armor: {
-        DamageMultipliers: {
-            Physical: 0,
-            Energy: 0,
-            Distortion: 0
-        },
-        SignalMultipliers: {
-            Electromagnetic: .8,
-            Infrared: .8,
-            CrossSection: .8
-        }
-    },
-    Hull: {
-        StructureHealthPoints: {
-            VitalParts: {
-                Body: 1e8
-            },
-            Parts: {
-                Rear: 8e4,
-                Neck_Rear: 23e3,
-                Neck_Front: 23e3,
-                Nose: 11e4
-            }
-        },
-        ThrustersHealthPoints: {
-            Main: {
-                thruster_main_left_bottom: 1e3,
-                thruster_main_left_top: 1e3,
-                thruster_main_right_top: 1e3,
-                thruster_main_right_bottom: 1e3,
-                thruster_main_left_centre: 1e3,
-                thruster_main_right_centre: 1e3
-            },
-            Retro: {
-                thruster_retro_rear_left_bottom: 8e4,
-                thruster_retro_rear_left_top: 8e4,
-                thruster_rear_retro_right_top: 8e4,
-                thruster_retro_rear_right_bottom: 8e4,
-                thruster_retro_rear_middle_right: 8e4,
-                thruster_retro_rear_middle_left: 8e4,
-                retro_top_left: 8e4,
-                retro_top_right: 8e4,
-                retro_bottom_left: 8e4,
-                retro_bottom_right: 8e4
-            },
-            Vtol: {
-                vtol_front: 1e3,
-                vtol_left: 1e3,
-                vtol_right: 1e3
-            },
-            Maneuvering: {
-                mav_rear_left_bottom: 1e3,
-                mav_rear_left_side: 1e3,
-                mav_rear_left_top: 1e3,
-                mav_rear_right_bottom: 1e3,
-                mav_rear_right_side: 1e3,
-                mav_rear_right_top: 1e3,
-                mav_front_left_top: 1e3,
-                mav_front_left_side: 1e3,
-                mav_front_left_bottom: 1e3,
-                mav_front_right_bottom: 1e3,
-                mav_front_right_side: 1e3,
-                mav_front_right_top: 1e3,
-                mav_mid_left_top: 1e3,
-                mav_mid_left_side: 1e3,
-                mav_mid_left_bottom: 1e3,
-                mav_mid_right_top: 1e3,
-                mav_mid_right_side: 1e3,
-                mav_mid_right_bottom: 1e3
-            }
-        }
-    },
-    FlightCharacteristics: {
-        ScmSpeed: 210,
-        MaxSpeed: 900,
-        Pitch: 18,
-        Yaw: 20,
-        Roll: 25,
-        IsVtolAssisted: !1,
-        UseDirectionModifiers: !0,
-        ThrustCapacity: {
-            Main: 541125280,
-            Retro: 365158360,
-            Vtol: 102e5,
-            Maneuvering: 266142600
-        },
-        AccelerationG: {
-            IsValidated: !1,
-            Main: 5.02,
-            Retro: 3.39,
-            Strafe: 0,
-            Up: 0,
-            Down: 0
-        },
-        MasterModes: {
-            BaseSpoolTime: 1,
-            QuantumDriveSpoolTime: 7,
-            ScmMode: {
-                BoostSpeedForward: 400,
-                BoostSpeedBackward: 230
-            }
-        },
-        Boost: {
-            PreDelay: 0,
-            RampUp: 1.6,
-            RampDown: .2,
-            AccelerationMultiplier: {
-                PositiveAxis: {
-                    X: 1.2,
-                    Y: 1.6,
-                    Z: 1.4
-                },
-                NegativeAxis: {
-                    X: 1.2,
-                    Y: 1.2,
-                    Z: 1.4
-                }
-            },
-            AngularAccelerationMultiplier: {
-                Pitch: 1.3,
-                Yaw: 1.2,
-                Roll: 1.2
-            },
-            AngularVelocityMultiplier: {
-                Pitch: 1.3,
-                Yaw: 1.2,
-                Roll: 1.4
-            }
-        },
-        Capacitors: {
-            ThrusterCapacitorSize: 20,
-            CapacitorRegenPerSec: .75,
-            CapacitorIdleCost: 1,
-            CapacitorLinearCost: 0,
-            CapacitorUsageModifier: 1,
-            CapacitorRegenDelay: 1.3,
-            RegenerationTime: 26.7,
-            X_AccelMultiplicator: 2,
-            Y_AccelMultiplicator: 2,
-            Z_AccelMultiplicator: 2
-        }
-    },
-    FuelManagement: {
-        FuelCapacity: 25e5,
-        FuelIntakeRate: 15,
-        QuantumFuelCapacity: 15e3,
-        FuelBurnRatePer10KNewton: {
-            Main: .1875,
-            Retro: .3125,
-            Vtol: .09375,
-            Maneuvering: .5625
-        },
-        FuelUsagePerSecond: {
-            Main: 1691.02,
-            Retro: 1141.12,
-            Vtol: 31.88,
-            Maneuvering: 831.7
-        },
-        IntakeToMainFuelRatio: .89,
-        TimeForIntakesToFillTank: 166666.67
-    },
-    Emissions: {
-        Electromagnetic: {
-            SCMIdle: 13644,
-            SCMActive: 17586,
-            NAV: 26006
-        },
-        Infrared: {
-            Start: 16453
-        },
-        CrossSection: {
-            Front: 0,
-            Side: 0,
-            Top: 0
-        }
-    },
-    Weapons: {
-        PilotWeaponRegenPool: {
-            RegenFillRate: 12500,
-            AmmoLoad: 1e5
-        },
-        TurretsWeaponRegenPool: {
-            RegenFillRate: 1e5,
-            AmmoLoad: 2e6
-        },
-        TotalShieldHP: 774521,
-        PilotBurstDPS: 0,
-        TurretsBurstDPS: 12925,
-        TotalMissilesDmg: 11146338
-    },
-    Insurance: {
-        StandardClaimTime: 70,
-        ExpeditedClaimTime: 30,
-        ExpeditedCost: 4e4
-    },
-    "New Ship": "RSI Polaris FleetWeek"
 }, {
     ClassName: "RSI_Scorpius",
     Name: "RSI Scorpius",
@@ -30821,7 +31079,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 97561.54,
-    ComponentsMass: 6348,
+    ComponentsMass: 6416,
     Dimensions: {
         Length: 24,
         Width: 32,
@@ -30964,7 +31222,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -30997,7 +31255,7 @@ const shipList = [{
     },
     ResourceNetwork: {
         ItemPools: {
-            WeaponPoolSize: 4
+            WeaponPoolSize: 6
         }
     },
     Weapons: {
@@ -31044,7 +31302,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 97561.54,
-    ComponentsMass: 9498,
+    ComponentsMass: 9566,
     Dimensions: {
         Length: 24,
         Width: 32,
@@ -31187,7 +31445,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 135e5,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -31220,7 +31478,7 @@ const shipList = [{
     },
     ResourceNetwork: {
         ItemPools: {
-            WeaponPoolSize: 4
+            WeaponPoolSize: 6
         }
     },
     Weapons: {
@@ -31261,7 +31519,7 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .25,
+        ExternalStorage: 0,
         PersonalInventory: 2.46
     },
     Crew: 2,
@@ -31501,7 +31759,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 1,
     Mass: 295e3,
-    ComponentsMass: 9257.6,
+    ComponentsMass: 9362.6,
     Dimensions: {
         Length: 45.7,
         Width: 34.3,
@@ -31640,7 +31898,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 665e5,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 12e5,
+        QuantumFuelCapacity: 18e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -31718,7 +31976,7 @@ const shipList = [{
     WeaponCrew: 1,
     OperationsCrew: 0,
     Mass: 295e3,
-    ComponentsMass: 8179.6,
+    ComponentsMass: 8224.6,
     Dimensions: {
         Length: 45.7,
         Width: 34.3,
@@ -31857,7 +32115,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 931e5,
         FuelIntakeRate: 30,
-        QuantumFuelCapacity: 15e5,
+        QuantumFuelCapacity: 26e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,
@@ -31928,7 +32186,7 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .1,
+        ExternalStorage: 1.8,
         PersonalInventory: 2.33
     },
     Crew: 1,
@@ -32041,7 +32299,7 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .1,
+        ExternalStorage: 1.8,
         PersonalInventory: 1.72
     },
     Crew: 1,
@@ -32155,7 +32413,7 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .1,
+        ExternalStorage: 1.8,
         PersonalInventory: 1.72
     },
     Crew: 1,
@@ -32268,7 +32526,7 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .1,
+        ExternalStorage: 1.8,
         PersonalInventory: 1.72
     },
     Crew: 1,
@@ -32381,7 +32639,7 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .1,
+        ExternalStorage: 1.8,
         PersonalInventory: 2.15
     },
     Crew: 1,
@@ -32494,7 +32752,7 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .1,
+        ExternalStorage: 1.8,
         PersonalInventory: 1.72
     },
     Crew: 1,
@@ -32893,9 +33151,9 @@ const shipList = [{
         TotalMissilesDmg: 0
     },
     Insurance: {
-        StandardClaimTime: 1,
-        ExpeditedClaimTime: .25,
-        ExpeditedCost: 430
+        StandardClaimTime: 5.33,
+        ExpeditedClaimTime: 1.33,
+        ExpeditedCost: 1730
     },
     "New Vehicle": "Tumbril Storm",
     Buy: {
@@ -33066,9 +33324,9 @@ const shipList = [{
         TotalMissilesDmg: 111028
     },
     Insurance: {
-        StandardClaimTime: 1,
-        ExpeditedClaimTime: .25,
-        ExpeditedCost: 430
+        StandardClaimTime: 5.33,
+        ExpeditedClaimTime: 1.33,
+        ExpeditedCost: 1740
     },
     "New Vehicle": "Tumbril Storm AA",
     Buy: {
@@ -33091,7 +33349,7 @@ const shipList = [{
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 27019,
-    ComponentsMass: 2692,
+    ComponentsMass: 2772,
     Dimensions: {
         Length: 16.5,
         Width: 20,
@@ -33237,7 +33495,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 8e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 3.75,
             Retro: 1.25,
@@ -33305,14 +33563,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .99,
+        ExternalStorage: .6,
         PersonalInventory: .99
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 76520,
-    ComponentsMass: 3484,
+    ComponentsMass: 3564,
     Dimensions: {
         Length: 31,
         Width: 31.5,
@@ -33489,7 +33747,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 9e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -33554,14 +33812,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .99,
+        ExternalStorage: .6,
         PersonalInventory: 0
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 72091,
-    ComponentsMass: 3140,
+    ComponentsMass: 3220,
     Dimensions: {
         Length: 31,
         Width: 23,
@@ -33715,7 +33973,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 22e6,
         FuelIntakeRate: 0,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 2.5,
             Retro: 2.5,
@@ -33780,14 +34038,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .39,
+        ExternalStorage: .3,
         PersonalInventory: .39
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 4230,
-    ComponentsMass: 778,
+    ComponentsMass: 893,
     Dimensions: {
         Length: 5.5,
         Width: 1.5,
@@ -33993,14 +34251,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: 1.08,
+        ExternalStorage: 1.05,
         PersonalInventory: 1.08
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 72711,
-    ComponentsMass: 2470,
+    ComponentsMass: 2530,
     Dimensions: {
         Length: 15,
         Width: 21.5,
@@ -34140,7 +34398,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 26e6,
         FuelIntakeRate: 29,
-        QuantumFuelCapacity: 5e5,
+        QuantumFuelCapacity: 11e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 0,
@@ -34208,14 +34466,14 @@ const shipList = [{
     Cargo: {
         CargoGrid: 0,
         CargoContainers: 0,
-        ExternalStorage: .25,
+        ExternalStorage: .45,
         PersonalInventory: 0
     },
     Crew: 1,
     WeaponCrew: 0,
     OperationsCrew: 0,
     Mass: 88524,
-    ComponentsMass: 4138,
+    ComponentsMass: 4238,
     Dimensions: {
         Length: 22,
         Width: 23,
@@ -34357,7 +34615,7 @@ const shipList = [{
     FuelManagement: {
         FuelCapacity: 147e5,
         FuelIntakeRate: 29,
-        QuantumFuelCapacity: 7e5,
+        QuantumFuelCapacity: 13e5,
         FuelBurnRatePer10KNewton: {
             Main: 5,
             Retro: 2.5,

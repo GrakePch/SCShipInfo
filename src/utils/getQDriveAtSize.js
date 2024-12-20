@@ -1,4 +1,4 @@
-import shipItems from "../data/ship-items-min.json";
+import shipItems from "../data/ship-items.js";
 
 export default function getQDriveAtSize(size) {
   let _result = [];

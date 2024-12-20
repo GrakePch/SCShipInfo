@@ -1428,7 +1428,7 @@ const fpsWeapons = [{
         }, {
             PortName: "optics_attach",
             MinSize: 1,
-            MaxSize: 3,
+            MaxSize: 2,
             Types: ["WeaponAttachment.IronSight"],
             Flags: ["inventory"],
             Tags: ["stocked", "behr_rifle_ballistic_02_civilian", "behr_rifle_ballistic_02"]
@@ -2229,6 +2229,134 @@ const fpsWeapons = [{
         }]
     }
 }, {
+    className: "glsn_smg_energy_01",
+    reference: "d65a6ec7-ccae-482a-a1aa-6b91a62e4160",
+    itemName: "glsn_smg_energy_01",
+    type: "WeaponPersonal",
+    subType: "Medium",
+    tags: "stocked smg glsn_smg_energy_01",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_Nameglsn_smg_energy_01",
+    manufacturer: "KSAR",
+    classification: "FPS.Weapon.Medium",
+    stdItem: {
+        ClassName: "glsn_smg_energy_01",
+        Size: 2,
+        Mass: 2.75,
+        Volume: 7700,
+        Grade: 1,
+        Type: "WeaponPersonal.Medium",
+        Classification: "FPS.Weapon.Medium",
+        Name: "glsn_smg_energy_01",
+        Manufacturer: {
+            Code: "KSAR",
+            Name: "Kastak Arms"
+        },
+        Tags: ["stocked", "smg", "glsn_smg_energy_01"],
+        Durability: {
+            Lifetime: 0
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 500,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
+            Firing: [{
+                Name: "Rapid",
+                LocalisedName: "[AUTO]",
+                SpinUpTime: 0,
+                SpinDownTime: 0,
+                RoundsPerMinute: 800,
+                FireType: "rapid",
+                AmmoPerShot: 1,
+                PelletsPerShot: 1,
+                HeatPerShot: 5,
+                WearPerShot: 0,
+                Spread: {
+                    Min: .11,
+                    Max: 4.23,
+                    FirstAttack: 1.12,
+                    PerAttack: 1.02,
+                    Decay: 8
+                },
+                AimModifier: {
+                    SpreadModifier: {
+                        Min: 0,
+                        Max: .3,
+                        FirstAttack: .5,
+                        PerAttack: .5,
+                        Decay: .6
+                    }
+                },
+                DamagePerShot: {},
+                DamagePerSecond: {}
+            }],
+            Repool: {
+                AmmoPerSecond: 10,
+                UnstowMagDuration: 1,
+                MagMergeDuration: .01
+            }
+        },
+        Ports: [{
+            PortName: "magazine_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Loadout: "glsn_smg_energy_01_mag",
+            Types: ["WeaponAttachment.Magazine"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"],
+            PortTags: ["glsn_smg_energy_01"]
+        }, {
+            PortName: "optics_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Types: ["WeaponAttachment.IronSight"],
+            Flags: ["inventory"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }, {
+            PortName: "barrel_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Types: ["WeaponAttachment.Barrel"],
+            Flags: ["inventory", "energy_barrel"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }, {
+            PortName: "underbarrel_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Types: ["WeaponAttachment.BottomAttachment"],
+            Flags: ["inventory"],
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }, {
+            PortName: "item_grab",
+            MinSize: 0,
+            MaxSize: 0,
+            Tags: ["stocked", "smg", "glsn_smg_energy_01"]
+        }]
+    }
+}, {
     className: "gmni_lmg_ballistic_01",
     reference: "d52a4cbb-4791-476d-a104-9f21e8d3f855",
     itemName: "gmni_lmg_ballistic_01",
@@ -2251,7 +2379,7 @@ const fpsWeapons = [{
         Type: "WeaponPersonal.Medium",
         Classification: "FPS.Weapon.Medium",
         Name: "F55 LMG",
-        Description: "Magazine Size: 150Rate Of Fire: 1000 rpmEffective Range: 30 mAttachments: Optics (S2), Barrel (N/A), Underbarrel (S3)Featuring an explosive rate of fire that tops at a 1000 rpm and Gemini's sleek and professional styling, the F55 is a light machine gun for discerning clientele who want to the 'verse to know that they are not to be trifled with.",
+        Description: "Magazine Size: 150Rate Of Fire: 1000 rpmEffective Range: 30 mAttachments: Optics (S2), Barrel (N/A), Underbarrel (S3)Featuring an explosive rate of fire that tops at a 1000 rpm and Gemini's sleek and professional styling, the F55 is a light machine gun for discerning clientele who want the 'verse to know that they are not to be trifled with.",
         Manufacturer: {
             Code: "GEM",
             Name: "Gemini"
@@ -2427,7 +2555,7 @@ const fpsWeapons = [{
         Type: "WeaponPersonal.Small",
         Classification: "FPS.Weapon.Small",
         Name: "LH86 Pistol",
-        Description: "Magazine Size: 13Rate Of Fire: 400 rpmEffective Range: 30 mAttachments: Optics (S1), Barrel (S1), Underbarrel (S1)The LH86 from Gemini is a compact kinetic handgun designed for personal defense and close-quarter combat. A keen eye on ergonomics and balance coupled with hardy construction makes this pistol a natural fit for any shooter in any number of hostile conditions. The LH86 also comes with Tritium low-light sight and a thirteen round magazine.",
+        Description: "Magazine Size: 25Rate Of Fire: 1200 rpmEffective Range: 30 mAttachments: Optics (S1), Barrel (S1), Underbarrel (S1)The LH86 from Gemini is a compact kinetic handgun designed for personal defense and close-quarter combat. A keen eye on ergonomics and balance coupled with hardy construction makes this pistol a natural fit for any shooter in any number of hostile conditions. The LH86 also comes with Tritium low-light sight and a twenty-five round magazine.",
         Manufacturer: {
             Code: "GEM",
             Name: "Gemini"
@@ -2527,8 +2655,8 @@ const fpsWeapons = [{
                 Grade: 1,
                 Class: "",
                 Type: "WeaponAttachment.Magazine",
-                Name: "LH86 Pistol Magazine (13 cap)",
-                Description: "This combat-rated magazine for the Gemini LH86 holds thirteen 10mm rounds.",
+                Name: "LH86 Pistol Magazine (25 cap)",
+                Description: "This combat-rated magazine for the Gemini LH86 holds twenty five 10mm rounds.",
                 Manufacturer: {
                     Code: "GEM",
                     Name: "Gemini"
@@ -3399,6 +3527,138 @@ const fpsWeapons = [{
         }]
     }
 }, {
+    className: "grin_cutter_01",
+    reference: "992f3584-e14e-436c-9c08-235427f846f9",
+    itemName: "grin_cutter_01",
+    type: "WeaponPersonal",
+    subType: "Medium",
+    tags: "stocked grin_cutter_01",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_Namegrin_cutter_01",
+    manufacturer: "GRIN",
+    classification: "FPS.Weapon.Medium",
+    stdItem: {
+        ClassName: "grin_cutter_01",
+        Size: 2,
+        Mass: 4,
+        Volume: 13e3,
+        Grade: 1,
+        Type: "WeaponPersonal.Medium",
+        Classification: "FPS.Weapon.Medium",
+        Name: "grin_cutter_01",
+        Manufacturer: {
+            Code: "GRIN",
+            Name: "Greycat Industrial"
+        },
+        Tags: ["stocked", "grin_cutter_01"],
+        Durability: {
+            Lifetime: 0
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        Weapon: {
+            Ammunition: {
+                Speed: 1200,
+                LifeTime: 4,
+                Range: 4800,
+                Size: 1,
+                DamageDrop: {
+                    MinDistance: {},
+                    DropPerMeter: {},
+                    MinDamage: {}
+                },
+                ImpactDamage: {
+                    Energy: 19
+                }
+            },
+            Firing: [{
+                Name: "",
+                LocalisedName: "@LOC_PLACEHOLDER",
+                RoundsPerMinute: 0,
+                FireType: "beam",
+                AmmoPerShot: 0,
+                PelletsPerShot: 0,
+                HeatPerShot: 0,
+                WearPerShot: 0,
+                DamagePerShot: {},
+                DamagePerSecond: {}
+            }],
+            Repool: {
+                AmmoPerSecond: 30,
+                UnstowMagDuration: 3,
+                MagMergeDuration: .01
+            }
+        },
+        Ports: [{
+            PortName: "magazine_attach",
+            MinSize: 1,
+            MaxSize: 1,
+            Loadout: "grin_tool_01_mag",
+            InstalledItem: {
+                ClassName: "grin_tool_01_mag",
+                Size: 1,
+                Mass: .5,
+                Volume: 280,
+                Grade: 1,
+                Class: "",
+                Type: "WeaponAttachment.Magazine",
+                Name: "Cambrio SRT Battery",
+                Description: "This replacement battery powers Greycat's Cambrio salvage and repair tool, allowing your work to continue unabated.",
+                Manufacturer: {
+                    Code: "GRIN",
+                    Name: "Greycat Industrial"
+                },
+                Tags: ["grin_salvage_repair_01"],
+                HeatController: {
+                    InitialTemperature: -1,
+                    CoolingEqualizationMultiplier: 1,
+                    MinOperatingTemperature: 0,
+                    MinCoolingTemperature: 300,
+                    Emissions: {
+                        MinimumTemperatureForIR: 250,
+                        TemperatureToIR: 6,
+                        StartIREmission: 0
+                    },
+                    Overheat: {
+                        EnableOverheat: !1,
+                        MaxTemperature: 450,
+                        WarningTemperature: 370,
+                        RecoveryTemperature: 350
+                    }
+                },
+                Magazine: {
+                    Capacity: 50,
+                    AllowRepool: !0
+                }
+            },
+            Types: ["WeaponAttachment.Magazine"],
+            Tags: ["stocked", "grin_cutter_01"],
+            PortTags: ["grin_cutter_01"]
+        }, {
+            PortName: "item_grab",
+            MinSize: 0,
+            MaxSize: 0,
+            Tags: ["stocked", "grin_cutter_01"]
+        }]
+    }
+}, {
     className: "grin_multitool_01",
     reference: "396ccb0d-c251-484d-998e-cc3616a37ee5",
     itemName: "grin_multitool_01",
@@ -3469,7 +3729,7 @@ const fpsWeapons = [{
                 }
             },
             Firing: [{
-                Name: "TractorBeam",
+                Name: "Detach",
                 LocalisedName: "Tractor",
                 RoundsPerMinute: 0,
                 FireType: "tractorbeam",
@@ -3485,24 +3745,6 @@ const fpsWeapons = [{
                 UnstowMagDuration: 1,
                 MagMergeDuration: .01
             }
-        },
-        TractorBeam: {
-            Tractor: [{
-                Mode: "TractorBeam",
-                MinForce: 500,
-                MaxForce: 257500,
-                MinDistance: .5,
-                MaxDistance: 25,
-                FullStrengthDistance: 3,
-                MaxAngle: 40,
-                MaxVolume: 800
-            }],
-            Towing: [{
-                TowingForce: 0,
-                TowingMaxAcceleration: 0,
-                TowingMaxDistance: 0,
-                QuantumTowMassLimit: 0
-            }]
         },
         MiningLaser: {
             ThrottleLerpSpeed: 10,
@@ -3706,7 +3948,7 @@ const fpsWeapons = [{
                 }
             },
             Firing: [{
-                Name: "Traversal",
+                Name: "Detach",
                 LocalisedName: "Tractor",
                 RoundsPerMinute: 0,
                 FireType: "tractorbeam",
@@ -3727,21 +3969,22 @@ const fpsWeapons = [{
             PortName: "magazine_attach",
             MinSize: 1,
             MaxSize: 1,
-            Loadout: "grin_tool_01_mag",
+            Loadout: "grin_tractor_01_mag",
             InstalledItem: {
-                ClassName: "grin_tool_01_mag",
+                ClassName: "grin_tractor_01_mag",
                 Size: 1,
                 Mass: .5,
+                Volume: 280,
                 Grade: 1,
                 Class: "",
                 Type: "WeaponAttachment.Magazine",
-                Name: "Gallant Rifle Battery (45 cap)",
-                Description: "This high-capacity battery sets itself apart by powering the Klaus & Werner Gallant energy rifle for 45 shots per charge. ",
+                Name: "MaxLift Tractor Beam Battery",
+                Description: "This replacement battery powers Greycat's MaxLift tractor beam, so you can keep working without any delay.",
                 Manufacturer: {
                     Code: "GRIN",
                     Name: "Greycat Industrial"
                 },
-                Tags: ["grin_cutter_01", "grin_tractor_01", "grin_salvage_repair_01"],
+                Tags: ["grin_tractor_01"],
                 HeatController: {
                     InitialTemperature: -1,
                     CoolingEqualizationMultiplier: 1,
@@ -3760,7 +4003,7 @@ const fpsWeapons = [{
                     }
                 },
                 Magazine: {
-                    Capacity: 50,
+                    Capacity: 60,
                     AllowRepool: !0
                 }
             },
@@ -4154,6 +4397,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 28.57143,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 600,
                 LifeTime: 4,
@@ -4331,6 +4582,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 28.57143,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 600,
                 LifeTime: 2,
@@ -4537,6 +4796,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 3,
+                TimeTillCoolingStarts: 1,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 1200,
                 LifeTime: 4,
@@ -4745,6 +5012,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 36.36,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 600,
                 LifeTime: 2,
@@ -4921,6 +5196,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 36.36,
+                TimeTillCoolingStarts: 5,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 1e3,
                 LifeTime: 4,
@@ -5327,7 +5610,7 @@ const fpsWeapons = [{
         Type: "WeaponPersonal.Medium",
         Classification: "FPS.Weapon.Medium",
         Name: "Karna Rifle",
-        Description: "Battery Size: 35Rate Of Fire: 500 rpmEffective Range: 50 mAttachments: Optics (S2), Barrel (S2), Underbarrel (S2)The Karna is a classic Kastak Arms plasma assault rifle. This mid-range mauler features burst, charged, and full-auto fire modes to allow for quick and easy situational adjustments. Besides its renowned firepower, the Karna's rugged looks and reliability have made it one of Kastak Arms' most popular weapons. ",
+        Description: "Battery Size: 35Rate Of Fire: 500 rpmEffective Range: 50 mAttachments: Optics (S2), Barrel (S2), Underbarrel (S2)The Karna is a classic Kastak Arms plasma assault rifle. This mid-range mauler features charged and full-auto fire modes to allow for quick and easy situational adjustments. Besides its renowned firepower, the Karna's rugged looks and reliability have made it one of Kastak Arms' most popular weapons. ",
         Manufacturer: {
             Code: "KSAR",
             Name: "Kastak Arms"
@@ -5354,6 +5637,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 142.85,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 600,
                 LifeTime: 2,
@@ -5965,6 +6256,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 200,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 600,
                 LifeTime: 2,
@@ -6452,6 +6751,14 @@ const fpsWeapons = [{
             }
         },
         Weapon: {
+            HeatParameters: {
+                MinTemp: 0,
+                OverheatTemp: 100,
+                CoolingPerSecond: 100,
+                TimeTillCoolingStarts: .2,
+                OverheatFixTime: 0,
+                TempAfterOverheatFix: 0
+            },
             Ammunition: {
                 Speed: 500,
                 LifeTime: 2,
@@ -7564,7 +7871,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Sion Compensator1  ",
-        Description: "Maintain accuracy by countering muzzle rise with the Sion Compensator1. ArmaMod's expertly designed S1 barrel attachment efficiently expels gasses to keep every shot on target.",
+        Description: "Audible Range: +20%Recoil Stability: +30%Recoil Smoothness: +30% Maintain accuracy by countering muzzle rise with the Sion Compensator1. ArmaMod's expertly designed S1 barrel attachment efficiently expels gasses to keep every shot on target.",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -7606,6 +7913,82 @@ const fpsWeapons = [{
                 FirstAttack: 1,
                 PerAttack: 1,
                 Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 1,
+                SecondZoomScale: 1,
+                ZoomTimeScale: 1
+            },
+            BarrelEffectsStrength: .5,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1.2
+        }
+    }
+}, {
+    className: "arma_barrel_comp_s1_contestedzonereward",
+    reference: "ff8fbeaa-66d6-4ed0-8d9a-3a9394e6df79",
+    itemName: "arma_barrel_comp_s1_contestedzonereward",
+    type: "WeaponAttachment",
+    subType: "Barrel",
+    tags: "FPS_Barrel ballistic_attach",
+    requiredTags: "",
+    size: 1,
+    grade: 1,
+    name: "@item_namarma_barrel_comp_s1_contestedzonereward",
+    manufacturer: "ARMA",
+    classification: "FPS.WeaponAttachment.BarrelAttachment",
+    stdItem: {
+        ClassName: "arma_barrel_comp_s1_contestedzonereward",
+        Size: 1,
+        Mass: .1,
+        Volume: 20,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.Barrel",
+        Classification: "FPS.WeaponAttachment.BarrelAttachment",
+        Name: 'Sion "Tweaker" Compensator1',
+        Description: `Fire Rate: +10%Recoil Stability: +30%Recoil Kick: +20%Maintain accuracy by countering muzzle rise with the Sion Compensator1. ArmaMod's expertly designed S1 barrel attachment efficiently expels gasses to keep every shot on target. This "Tweaker" version has been unofficially modified for a faster fire rate. `,
+        Manufacturer: {
+            Code: "ARMA",
+            Name: "ArmaMod"
+        },
+        Tags: ["FPS_Barrel", "ballistic_attach"],
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1.1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: 1.2,
+                PitchMaxDegrees: 1.2,
+                RollMaxDegrees: 1.2
+            },
+            SpreadModifier: {
+                Min: 1.2,
+                Max: 1.2,
+                FirstAttack: 1.2,
+                PerAttack: 1.2,
+                Decay: 1.2
             },
             AimModifier: {
                 ZoomScale: 1,
@@ -7640,7 +8023,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Sion Compensator2",
-        Description: "Maintain accuracy by countering muzzle rise with the Sion Compensator2. ArmaMod's expertly designed S2 barrel attachment efficiently expels gasses to keep every shot on target.",
+        Description: "Audible Range: +20%Recoil Stability: +30%Recoil Smoothness: +30% Maintain accuracy by countering muzzle rise with the Sion Compensator2. ArmaMod's expertly designed S2 barrel attachment efficiently expels gasses to keep every shot on target.",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -7694,6 +8077,158 @@ const fpsWeapons = [{
         }
     }
 }, {
+    className: "arma_barrel_comp_s2_contestedzonereward",
+    reference: "c2a12467-36a7-4e10-8de5-39b59f8922c6",
+    itemName: "arma_barrel_comp_s2_contestedzonereward",
+    type: "WeaponAttachment",
+    subType: "Barrel",
+    tags: "FPS_Barrel ballistic_attach",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_namearma_barrel_comp_s2_contestedzonereward",
+    manufacturer: "ARMA",
+    classification: "FPS.WeaponAttachment.BarrelAttachment",
+    stdItem: {
+        ClassName: "arma_barrel_comp_s2_contestedzonereward",
+        Size: 2,
+        Mass: .1,
+        Volume: 60,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.Barrel",
+        Classification: "FPS.WeaponAttachment.BarrelAttachment",
+        Name: 'Sion "Tweaker" Compensator2',
+        Description: `Recoil Stability: +70%Recoil Smoothness: +50%ADS Time: +25%Spread: +25%Maintain accuracy by countering muzzle rise with the Sion Compensator2. ArmaMod's expertly designed S2 barrel attachment efficiently expels gasses to keep every shot on target. This "Tweaker" version has been unofficially modified for a smoother firing experience. `,
+        Manufacturer: {
+            Code: "ARMA",
+            Name: "ArmaMod"
+        },
+        Tags: ["FPS_Barrel", "ballistic_attach"],
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: .3,
+                PitchMaxDegrees: .3,
+                RollMaxDegrees: .3
+            },
+            SpreadModifier: {
+                Min: 1.25,
+                Max: 1.25,
+                FirstAttack: 1.25,
+                PerAttack: 1.25,
+                Decay: 1.25
+            },
+            AimModifier: {
+                ZoomScale: 1,
+                SecondZoomScale: 1,
+                ZoomTimeScale: 1.25
+            },
+            BarrelEffectsStrength: .5,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1.2
+        }
+    }
+}, {
+    className: "arma_barrel_comp_s2_firerats01",
+    reference: "10831736-4bdf-4465-b517-94281261d317",
+    itemName: "arma_barrel_comp_s2_firerats01",
+    type: "WeaponAttachment",
+    subType: "Barrel",
+    tags: "FPS_Barrel ballistic_attach",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_Namearma_barrel_comp_s2_firerats01",
+    manufacturer: "ARMA",
+    classification: "FPS.WeaponAttachment.BarrelAttachment",
+    stdItem: {
+        ClassName: "arma_barrel_comp_s2_firerats01",
+        Size: 2,
+        Mass: .1,
+        Volume: 60,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.Barrel",
+        Classification: "FPS.WeaponAttachment.BarrelAttachment",
+        Name: 'Sion "Scorched" Compensator2',
+        Description: "Recoil Stability: +40%Recoil Kick: +40%Spread: -10%Projectile Speed: -12.5%Maintain accuracy by countering muzzle rise with the Sion Compensator2. ArmaMod's expertly designed S2 barrel attachment efficiently expels gasses to keep every shot on target. The Scorched edition features a unique flame patina.",
+        Manufacturer: {
+            Code: "ARMA",
+            Name: "ArmaMod"
+        },
+        Tags: ["FPS_Barrel", "ballistic_attach"],
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: .875,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: .8,
+                PitchMaxDegrees: .8,
+                RollMaxDegrees: .8
+            },
+            SpreadModifier: {
+                Min: .9,
+                Max: .9,
+                FirstAttack: .9,
+                PerAttack: .9,
+                Decay: .9
+            },
+            AimModifier: {
+                ZoomScale: 1,
+                SecondZoomScale: 1,
+                ZoomTimeScale: 1
+            },
+            BarrelEffectsStrength: .5,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1.2
+        }
+    }
+}, {
     className: "arma_barrel_comp_s3",
     reference: "f739108f-7720-4a5e-b173-a65e07b314da",
     itemName: "arma_barrel_comp_s3",
@@ -7716,7 +8251,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Sion Compensator3",
-        Description: "Maintain accuracy by countering muzzle rise with the Sion Compensator3. ArmaMod's expertly designed S3 barrel attachment efficiently expels gasses to keep every shot on target.",
+        Description: "Audible Range: +20%Recoil Stability: +30%Recoil Smoothness: +30% Maintain accuracy by countering muzzle rise with the Sion Compensator3. ArmaMod's expertly designed S3 barrel attachment efficiently expels gasses to keep every shot on target.",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -7792,7 +8327,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Veil Flash Hider1",
-        Description: "The Veil Flash Hider1 is an S1 flash hider from ArmaMod. Designed to reduce muzzle flash, it will help keep your position hidden once the action begins.",
+        Description: "Recoil Stability: +15%Recoil Smoothness: +15%The Veil Flash Hider1 is an S1 flash hider from ArmaMod. Designed to reduce muzzle flash, it will help keep your position hidden once the action begins.",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -7868,7 +8403,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Veil Flash Hider2",
-        Description: "The Veil Flash Hider2 is an S2 flash hider from ArmaMod. Designed to reduce muzzle flash, it will help keep your position hidden once the action begins.",
+        Description: "Recoil Stability: +15%Recoil Smoothness: +15%The Veil Flash Hider2 is an S2 flash hider from ArmaMod. Designed to reduce muzzle flash, it will help keep your position hidden once the action begins.",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -7944,7 +8479,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Veil Flash Hider3",
-        Description: "The Veil Flash Hider3 is an S3 flash hider from ArmaMod. Designed to reduce muzzle flash, it will help keep your position hidden once the action begins.",
+        Description: "Recoil Stability: +15%Recoil Smoothness: +15%The Veil Flash Hider3 is an S3 flash hider from ArmaMod. Designed to reduce muzzle flash, it will help keep your position hidden once the action begins.",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -8074,6 +8609,82 @@ const fpsWeapons = [{
         }
     }
 }, {
+    className: "arma_barrel_stab_s1_firerats01",
+    reference: "6086430f-6a76-4768-8baa-6e09bc56140e",
+    itemName: "arma_barrel_stab_s1_firerats01",
+    type: "WeaponAttachment",
+    subType: "Barrel",
+    tags: "FPS_Barrel energy_attach",
+    requiredTags: "",
+    size: 1,
+    grade: 1,
+    name: "@item_Namearma_barrel_stab_s1_firerats01",
+    manufacturer: "ARMA",
+    classification: "FPS.WeaponAttachment.BarrelAttachment",
+    stdItem: {
+        ClassName: "arma_barrel_stab_s1_firerats01",
+        Size: 1,
+        Mass: .1,
+        Volume: 50,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.Barrel",
+        Classification: "FPS.WeaponAttachment.BarrelAttachment",
+        Name: 'Emod "Scorched" Stabilizer1',
+        Description: "Recoil Stability: +40%Recoil Kick: +40%Spread: -10%Projectile Speed: -12.5%Reduce energy weapon recoil with the Emod Stabilizer1. ArmaMod designed the attachment to improve both horizontal and vertical recoil to ensure a more precise shot. The Scorched edition features a unique flame patina.",
+        Manufacturer: {
+            Code: "ARMA",
+            Name: "ArmaMod"
+        },
+        Tags: ["FPS_Barrel", "energy_attach"],
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: .8,
+                PitchMaxDegrees: .8,
+                RollMaxDegrees: .8
+            },
+            SpreadModifier: {
+                Min: 1,
+                Max: 1,
+                FirstAttack: 1,
+                PerAttack: 1,
+                Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 1,
+                SecondZoomScale: 1,
+                ZoomTimeScale: 1
+            },
+            BarrelEffectsStrength: .5,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1.2
+        }
+    }
+}, {
     className: "arma_barrel_stab_s2",
     reference: "ecbc4c11-95f3-4bd3-9fad-49bba798a942",
     itemName: "arma_barrel_stab_s2",
@@ -8137,6 +8748,82 @@ const fpsWeapons = [{
                 Max: 1,
                 FirstAttack: 1,
                 PerAttack: 1,
+                Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 1,
+                SecondZoomScale: 1,
+                ZoomTimeScale: 1
+            },
+            BarrelEffectsStrength: .5,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1.2
+        }
+    }
+}, {
+    className: "arma_barrel_stab_s2_contestedzonereward",
+    reference: "bf838dcb-31d5-4c8d-8550-90f09a581619",
+    itemName: "arma_barrel_stab_s2_contestedzonereward",
+    type: "WeaponAttachment",
+    subType: "Barrel",
+    tags: "FPS_Barrel energy_attach",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_namearma_barrel_stab_s2_contestedzonereward",
+    manufacturer: "ARMA",
+    classification: "FPS.WeaponAttachment.BarrelAttachment",
+    stdItem: {
+        ClassName: "arma_barrel_stab_s2_contestedzonereward",
+        Size: 2,
+        Mass: .1,
+        Volume: 110,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.Barrel",
+        Classification: "FPS.WeaponAttachment.BarrelAttachment",
+        Name: 'Emod "Tweaker" Stabilizer2',
+        Description: 'Damage: +12.5%Recoil Stability: +15%Recoil Kick: +40%Spread: +25%Ammo Cost Per Shot: +50%Reduce energy weapon recoil with the Emod Stabilizer2. ArmaMod designed the attachment to improve both horizontal and vertical recoil to ensure a more precise shot. This "Tweaker" version has been unofficially modified to do more damage.',
+        Manufacturer: {
+            Code: "ARMA",
+            Name: "ArmaMod"
+        },
+        Tags: ["FPS_Barrel", "energy_attach"],
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1.125,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1.5
+            },
+            RecoilModifier: {
+                YawMaxDegrees: 1.4,
+                PitchMaxDegrees: 1.4,
+                RollMaxDegrees: 1.4
+            },
+            SpreadModifier: {
+                Min: 1.25,
+                Max: 1.25,
+                FirstAttack: 1.25,
+                PerAttack: 1.25,
                 Decay: 1
             },
             AimModifier: {
@@ -8248,7 +8935,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Tacit Suppressor1",
-        Description: "Strike silently with the Tacit Supressor1. ArmaMod uses a proprietary ceramic coating inside the suppressor to ensure the sound of gunfire remains minimal. ",
+        Description: "Damage: -8%Audible Range: -60%Strike silently with the Tacit Supressor1. ArmaMod uses a proprietary ceramic coating inside the suppressor to ensure the sound of gunfire remains minimal. ",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -8324,7 +9011,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Tacit Suppressor2",
-        Description: "Strike silently with the Tacit Supressor2. ArmaMod uses a proprietary ceramic coating inside the suppressor to ensure the sound of gunfire remains minimal. ",
+        Description: "Damage: -8%Audible Range: -60%Strike silently with the Tacit Supressor2. ArmaMod uses a proprietary ceramic coating inside the suppressor to ensure the sound of gunfire remains minimal. ",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -8400,7 +9087,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.Barrel",
         Classification: "FPS.WeaponAttachment.BarrelAttachment",
         Name: "Tacit Suppressor3",
-        Description: "Strike silently with the Tacit Supressor3. ArmaMod uses a proprietary ceramic coating inside the suppressor to ensure the sound of gunfire remains minimal.",
+        Description: "Damage: -8%Audible Range: -60%Strike silently with the Tacit Supressor3. ArmaMod uses a proprietary ceramic coating inside the suppressor to ensure the sound of gunfire remains minimal.",
         Manufacturer: {
             Code: "ARMA",
             Name: "ArmaMod"
@@ -9054,6 +9741,81 @@ const fpsWeapons = [{
         }
     }
 }, {
+    className: "gmni_optics_tsco_x4_s2_firerats01",
+    reference: "bbea3063-5ca5-4d78-9327-95cceb638eb9",
+    itemName: "gmni_optics_tsco_x4_s2_firerats01",
+    type: "WeaponAttachment",
+    subType: "IronSight",
+    tags: "",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_Namegmni_optics_tsco_x4_s2_firerats02",
+    manufacturer: "GEM",
+    classification: "FPS.WeaponAttachment.IronSight",
+    stdItem: {
+        ClassName: "gmni_optics_tsco_x4_s2_firerats01",
+        Size: 2,
+        Mass: .1,
+        Volume: 700,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.IronSight",
+        Classification: "FPS.WeaponAttachment.IronSight",
+        Name: 'OT4-RF "Scorched" (4x Telescopic)',
+        Description: "Combining a premium 4x telescopic sight with Gemini's innovative echoburst rangefinder, the OT4-RF model allows you to accurately gauge the distance to your target; vital for effective precision shooting. When paired with the Gemini S71 or other compatible weapon, the OT4-RF is engineered to impress in a variety of situations and engagements. The Scorched edition features a unique flame patina.",
+        Manufacturer: {
+            Code: "GEM",
+            Name: "Gemini"
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: 1,
+                PitchMaxDegrees: 1,
+                RollMaxDegrees: 1
+            },
+            SpreadModifier: {
+                Min: 1,
+                Max: 1,
+                FirstAttack: 1,
+                PerAttack: 1,
+                Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 4,
+                SecondZoomScale: 2.5,
+                ZoomTimeScale: 1.05
+            },
+            BarrelEffectsStrength: 1,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1
+        }
+    }
+}, {
     className: "gmni_optics_tsco_x8_s3",
     reference: "278fafef-c4e3-44d5-9b85-a225f6e97cb2",
     itemName: "gmni_optics_tsco_x8_s3",
@@ -9121,6 +9883,81 @@ const fpsWeapons = [{
             AimModifier: {
                 ZoomScale: 8,
                 SecondZoomScale: 1,
+                ZoomTimeScale: 1
+            },
+            BarrelEffectsStrength: 1,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1
+        }
+    }
+}, {
+    className: "gmni_optics_tsco_x8_s3_firerats01",
+    reference: "70a1857b-69b1-4456-b29e-36c505f09eca",
+    itemName: "gmni_optics_tsco_x8_s3_firerats01",
+    type: "WeaponAttachment",
+    subType: "IronSight",
+    tags: "",
+    requiredTags: "",
+    size: 3,
+    grade: 1,
+    name: "@item_Namegmni_optics_tsco_x8_s3_firerats01",
+    manufacturer: "GEM",
+    classification: "FPS.WeaponAttachment.IronSight",
+    stdItem: {
+        ClassName: "gmni_optics_tsco_x8_s3_firerats01",
+        Size: 3,
+        Mass: .1,
+        Volume: 1900,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.IronSight",
+        Classification: "FPS.WeaponAttachment.IronSight",
+        Name: 'OT8-RF "Scorched" (8x Telescopic)',
+        Description: "Combining a premium 8x telescopic sight with Gemini's innovative echoburst rangefinder, the OT8-RF model allows you to accurately gauge the distance to your target; vital for effective precision shooting. The standard scope for Gemni's A03 Sniper Rifle, the OT8-RF is engineered to impress in a variety of situations and engagements. The Scorched edition features a unique flame patina.",
+        Manufacturer: {
+            Code: "GEM",
+            Name: "Gemini"
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: 1,
+                PitchMaxDegrees: 1,
+                RollMaxDegrees: 1
+            },
+            SpreadModifier: {
+                Min: 1,
+                Max: 1,
+                FirstAttack: 1,
+                PerAttack: 1,
+                Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 8,
+                SecondZoomScale: 4,
                 ZoomTimeScale: 1
             },
             BarrelEffectsStrength: 1,
@@ -9712,7 +10549,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.BottomAttachment",
         Classification: "FPS.WeaponAttachment.BottomAttachment",
         Name: "Tracer Laser Pointer Orange ",
-        Description: "Trust Klaus & Werner to manufacture a tactical laser pointer that always hits the mark. The Tracer features a rust and impact resistant casing for an advanced laser diode that produces an efficient and stable beam. This special edition generates an orange beam that's easy to see and identify.",
+        Description: "Spread: -12.5%Trust Klaus & Werner to manufacture a tactical laser pointer that always hits the mark. The Tracer features a rust and impact resistant casing for an advanced laser diode that produces an efficient and stable beam. This special edition generates an orange beam that's easy to see and identify.",
         Manufacturer: {
             Code: "NVTC",
             Name: "NV-TAC"
@@ -9787,7 +10624,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.BottomAttachment",
         Classification: "FPS.WeaponAttachment.BottomAttachment",
         Name: "Tracer Laser Pointer Green",
-        Description: "Trust Klaus & Werner to manufacture a tactical laser pointer that always hits the mark. The Tracer features a rust and impact resistant casing for an advanced laser diode that produces an efficient and stable beam. This special edition generates a green beam that's easy to see and identify.",
+        Description: "Spread: -12.5%Trust Klaus & Werner to manufacture a tactical laser pointer that always hits the mark. The Tracer features a rust and impact resistant casing for an advanced laser diode that produces an efficient and stable beam. This special edition generates a green beam that's easy to see and identify.",
         Manufacturer: {
             Code: "NVTC",
             Name: "NV-TAC"
@@ -10588,6 +11425,81 @@ const fpsWeapons = [{
         }
     }
 }, {
+    className: "nvtc_optics_rdot_x1_s1_firerats01",
+    reference: "d4d27d5f-3c80-4b31-bc34-2de8357b79d7",
+    itemName: "nvtc_optics_rdot_x1_s1_firerats01",
+    type: "WeaponAttachment",
+    subType: "IronSight",
+    tags: "",
+    requiredTags: "",
+    size: 1,
+    grade: 1,
+    name: "@item_Namenvtc_optics_rdot_x1_s1_firerats01",
+    manufacturer: "NVTC",
+    classification: "FPS.WeaponAttachment.IronSight",
+    stdItem: {
+        ClassName: "nvtc_optics_rdot_x1_s1_firerats01",
+        Size: 1,
+        Mass: .1,
+        Volume: 100,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.IronSight",
+        Classification: "FPS.WeaponAttachment.IronSight",
+        Name: 'Delta "Scorched" (1x Reflex)',
+        Description: "Ideal for civilians and professionals, the Delta non-magnifying reflex sight from NV-TAC provides a precise illuminated target marker, visible across a wide range of light levels. The Scorched edition features a unique flame patina.",
+        Manufacturer: {
+            Code: "NVTC",
+            Name: "NV-TAC"
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: 1,
+                PitchMaxDegrees: 1,
+                RollMaxDegrees: 1
+            },
+            SpreadModifier: {
+                Min: 1,
+                Max: 1,
+                FirstAttack: 1,
+                PerAttack: 1,
+                Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 1,
+                SecondZoomScale: 3,
+                ZoomTimeScale: 1.025
+            },
+            BarrelEffectsStrength: 1,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1
+        }
+    }
+}, {
     className: "nvtc_optics_rdot_x1_s1_LAMP",
     reference: "495e07f0-3b09-49a7-857b-dccefca9f5d1",
     itemName: "nvtc_optics_rdot_x1_s1_lamp",
@@ -10731,6 +11643,81 @@ const fpsWeapons = [{
                 ZoomScale: 4,
                 SecondZoomScale: 6,
                 ZoomTimeScale: 1.25
+            },
+            BarrelEffectsStrength: 1,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1
+        }
+    }
+}, {
+    className: "nvtc_optics_tsco_x4_s2_firerats01",
+    reference: "be792212-0662-4351-95cb-31b4d3fe9a0d",
+    itemName: "nvtc_optics_tsco_x4_s2_firerats01",
+    type: "WeaponAttachment",
+    subType: "IronSight",
+    tags: "",
+    requiredTags: "",
+    size: 2,
+    grade: 1,
+    name: "@item_Namenvtc_optics_tsco_x4_s2_firerats01",
+    manufacturer: "NVTC",
+    classification: "FPS.WeaponAttachment.IronSight",
+    stdItem: {
+        ClassName: "nvtc_optics_tsco_x4_s2_firerats01",
+        Size: 2,
+        Mass: .1,
+        Volume: 700,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.IronSight",
+        Classification: "FPS.WeaponAttachment.IronSight",
+        Name: 'Tau Plus "Scorched" (4x Telescopic)',
+        Description: "The Tau Plus 4x telescopic sight from NV-TAC uses a proprietary optics coating to ensure a crystal clear image regardless of light levels and conditions, allowing you to precisely engage targets at medium range. The Scorched edition features a unique flame patina.",
+        Manufacturer: {
+            Code: "NVTC",
+            Name: "NV-TAC"
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: 1,
+                PitchMaxDegrees: 1,
+                RollMaxDegrees: 1
+            },
+            SpreadModifier: {
+                Min: 1,
+                Max: 1,
+                FirstAttack: 1,
+                PerAttack: 1,
+                Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 4,
+                SecondZoomScale: 2,
+                ZoomTimeScale: 1.05
             },
             BarrelEffectsStrength: 1,
             ChargeTimeMultiplier: 1,
@@ -11387,6 +12374,112 @@ const fpsWeapons = [{
         }]
     }
 }, {
+    className: "nvtc_ubarrel_flsh_s1_firerats01",
+    reference: "ba30701c-bec0-4345-b5d9-ae869f34c126",
+    itemName: "nvtc_ubarrel_flsh_s1_firerats01",
+    type: "WeaponAttachment",
+    subType: "BottomAttachment",
+    tags: "",
+    requiredTags: "",
+    size: 1,
+    grade: 1,
+    name: "@item_Namenvtc_ubarrel_flsh_s1_firerats01",
+    manufacturer: "NVTC",
+    classification: "FPS.WeaponAttachment.BottomAttachment",
+    stdItem: {
+        ClassName: "nvtc_ubarrel_flsh_s1_firerats01",
+        Size: 1,
+        Mass: .1,
+        Volume: 110,
+        Grade: 1,
+        Class: "",
+        Type: "WeaponAttachment.BottomAttachment",
+        Classification: "FPS.WeaponAttachment.BottomAttachment",
+        Name: 'FieldLite "Scorched" Flashlight',
+        Description: "The FieldLite is a tough and tactical underbarrel flashlight. Featuring a corrosion-proof body and impact resistant lens, NV-TAC tested the attachment across a variety of environments and conditions to ensure it works when needed most. The Scorched edition features a unique flame patina.",
+        Manufacturer: {
+            Code: "NVTC",
+            Name: "NV-TAC"
+        },
+        HeatController: {
+            InitialTemperature: -1,
+            CoolingEqualizationMultiplier: 1,
+            MinOperatingTemperature: 0,
+            MinCoolingTemperature: 300,
+            Emissions: {
+                MinimumTemperatureForIR: 250,
+                TemperatureToIR: 6,
+                StartIREmission: 0
+            },
+            Overheat: {
+                EnableOverheat: !1,
+                MaxTemperature: 450,
+                WarningTemperature: 370,
+                RecoveryTemperature: 350
+            }
+        },
+        WeaponModifier: {
+            DamageModifier: {
+                DamageMultiplier: 1,
+                DamageOverTimeMultiplier: 1,
+                FireRateMultiplier: 1,
+                ProjectileSpeedMultiplier: 1,
+                AmmoCostMultiplier: 1
+            },
+            RecoilModifier: {
+                YawMaxDegrees: 1,
+                PitchMaxDegrees: 1,
+                RollMaxDegrees: 1
+            },
+            SpreadModifier: {
+                Min: 1,
+                Max: 1,
+                FirstAttack: 1,
+                PerAttack: 1,
+                Decay: 1
+            },
+            AimModifier: {
+                ZoomScale: 1,
+                SecondZoomScale: 1,
+                ZoomTimeScale: 1
+            },
+            BarrelEffectsStrength: 1,
+            ChargeTimeMultiplier: 1,
+            SoundRadiusMultiplier: 1
+        },
+        Ports: [{
+            PortName: "light_1",
+            MinSize: 0,
+            MaxSize: 0,
+            Loadout: "weapon_underbarrel_light_narrow_red_01",
+            InstalledItem: {
+                ClassName: "weapon_underbarrel_light_narrow_red_01",
+                Size: 1,
+                Volume: 1,
+                Grade: 1,
+                Type: "Light.Weapon",
+                Name: "weapon_underbarrel_light_narrow_red_01",
+                Tags: ["uneditable"]
+            },
+            Types: ["Light"]
+        }, {
+            PortName: "light_2",
+            MinSize: 0,
+            MaxSize: 0,
+            Loadout: "weapon_underbarrel_light_wide_red_01",
+            InstalledItem: {
+                ClassName: "weapon_underbarrel_light_wide_red_01",
+                Size: 1,
+                Volume: 1,
+                Grade: 1,
+                Type: "Light.Weapon",
+                Name: "weapon_underbarrel_light_wide_red_01",
+                Tags: ["uneditable"]
+            },
+            Types: ["Light"]
+        }]
+    }
+}, {
     className: "nvtc_ubarrel_lasr_s1",
     reference: "6bbaa189-c154-4524-b2c1-6df305bb9533",
     itemName: "nvtc_ubarrel_lasr_s1",
@@ -11409,7 +12502,7 @@ const fpsWeapons = [{
         Type: "WeaponAttachment.BottomAttachment",
         Classification: "FPS.WeaponAttachment.BottomAttachment",
         Name: "250-E Laser Pointer",
-        Description: "The 250-E is an intuitive aiming aid that produces a laser visible to you and others. NV-TAC built the attachment to be lightweight yet durable so it won't add extra weight to your weapon.",
+        Description: "Spread: -12.5%The 250-E is an intuitive aiming aid that produces a laser visible to you and others. NV-TAC built the attachment to be lightweight yet durable so it won't add extra weight to your weapon.",
         Manufacturer: {
             Code: "NVTC",
             Name: "NV-TAC"

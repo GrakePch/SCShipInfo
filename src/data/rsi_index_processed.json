@@ -1605,6 +1605,28 @@
         "minCrew": 1,
         "maxCrew": 6
     },
+    "MRAI_Guardian": {
+        "className": "MRAI_Guardian",
+        "name": "Mirai Guardian",
+        "nameShort": "Guardian",
+        "nameRSI": "Guardian",
+        "type": "combat",
+        "focus": "Heavy Fighter",
+        "msrp": 25000,
+        "minCrew": 1,
+        "maxCrew": 1
+    },
+    "MRAI_Guardian_QI": {
+        "className": "MRAI_Guardian_QI",
+        "name": "Mirai Guardian QI",
+        "nameShort": "Guardian QI",
+        "nameRSI": "Guardian QI",
+        "type": "combat",
+        "focus": "Heavy Fighter",
+        "msrp": 26000,
+        "minCrew": 1,
+        "maxCrew": 1
+    },
     "MRAI_Pulse": {
         "className": "MRAI_Pulse",
         "name": "Mirai Pulse",

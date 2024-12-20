@@ -7,7 +7,7 @@ import component_zh_name from "../../assets/component_zh_name.json";
 import dmgTypeToColor from "../../assets/damageTypeToColor";
 import icons from "../../assets/icons";
 import signalToColor from "../../assets/signalTypeToColor";
-import ship_items from "../../data/ship-items-min.json";
+import ship_items from "../../data/ship-items.js";
 import I18nPure from "../I18nPure";
 
 const dmgTypeToIcon = {
