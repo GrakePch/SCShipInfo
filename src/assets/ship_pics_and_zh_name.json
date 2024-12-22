@@ -926,6 +926,14 @@
     {
       "Argo CSV-SM": "南船 CSV-SM",
       "vehicleLink": "https://ships.42kit.com/resized/csv-sm%20iso.png"
+    },
+    {
+      "Mirai Guardian": "未来 守护者",
+      "vehicleLink": "https://ships.42kit.com/resized/guardian%20iso.png"
+    },
+    {
+      "Mirai Guardian QI": "未来 守护者 QI",
+      "vehicleLink": "https://ships.42kit.com/resized/guardian-qi%20iso.png"
     }
   ]
 }
