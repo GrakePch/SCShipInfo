@@ -94,6 +94,17 @@ const PersonalWeaponSelector = () => {
 
     for (const item of listPersonalWeapon) {
       if (item.type === "WeaponPersonal") {
+        
+      /* Fix data for item specifically */
+      if (item.className === "ksar_sniper_ballistic_01") {
+        let rpm = 60;
+        let ammoPerShot = 2;
+        let dps = item.stdItem.Weapon.Firing[0].DamagePerShot.Physical * rpm / 60 * ammoPerShot;
+        item.stdItem.Weapon.Firing[0].RoundsPerMinute = rpm;
+        item.stdItem.Weapon.Firing[0].AmmoPerShot = ammoPerShot;
+        item.stdItem.Weapon.Firing[0].DamagePerSecond.Physical = dps;
+      }
+
         tempListWeapon[item.subType].push(item);
         if (item.subType === "Small") {
           tempDictGun.HG.push(item);
